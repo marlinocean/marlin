@@ -13,24 +13,43 @@ const KEY='sb_publishable_AJLiFAV6EW64S1-T6UYsqQ_e-ZhjaIA';
 const names=['Grammar','Vocabulary','Listening','Reading','Correct Spelling','Pronunciation','Numbers & Time','Maritime English','Audio to Picture','Picture Word Matching','Paragraph Title Selection','Sentence Arrangement'];
 const id=Number(new URLSearchParams(location.search).get('topic'));
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const safeUrl=v=>{try{const u=new URL(v,location.href);return ['https:','http:'].includes(u.protocol)?u.href:''}catch{return ''}};
-const speak=text=>{if(!('speechSynthesis'in window)){alert('Audio playback is not supported in this browser.');return}speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(String(text||''));u.lang='en-US';u.rate=.88;speechSynthesis.speak(u)};
-const imageOrText=(value)=>{const u=safeUrl(value);return u?'<img src="'+esc(u)+'" alt="Study picture" loading="lazy">':'<span>'+esc(value)+'</span>'};
+const plain=v=>{
+ if(v===null||v===undefined)return '';
+ if(typeof v==='string'||typeof v==='number'||typeof v==='boolean')return String(v);
+ if(Array.isArray(v))return v.map(plain).filter(Boolean).join(' · ');
+ if(typeof v==='object'){for(const k of ['label','text','value','answer','name','title','word','picture'])if(v[k]!==undefined&&v[k]!==null)return plain(v[k]);return ''}
+ return '';
+};
+const safeUrl=v=>{if(typeof v!=='string'||!/^https?:\\/\\//i.test(v.trim()))return '';try{return new URL(v.trim()).href}catch{return ''}};
+const speak=text=>{
+ const words=plain(text).trim();if(!words)return;
+ if(!('speechSynthesis'in window)){alert('Audio playback is not supported in this browser.');return}
+ speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(words);u.lang='en-US';u.rate=.88;
+ const voices=speechSynthesis.getVoices();const voice=voices.find(v=>v.lang.toLowerCase().startsWith('en')&&v.localService)||voices.find(v=>v.lang.toLowerCase().startsWith('en'));
+ if(voice)u.voice=voice;speechSynthesis.speak(u);
+};
 function renderQuestion(q,i,total){
- const prompt=String(q.prompt||'').replace(/^Marlin Test\s*\d+\s*[·•-]\s*Exercise\s*\d+\.\s*/i,'');
- let html='<article class="question"><div class="meta">QUESTION '+(i+1)+' OF '+total+'</div><h2>'+esc(prompt)+'</h2>';
- if(q.passage)html+='<div class="passage">'+esc(q.passage)+'</div>';
- if(['listening','pronunciation','audio_picture'].includes(q.question_type)&&q.passage)html+='<button class="play" type="button" data-speak="'+i+'">▶ Play audio</button>';
+ const prompt=plain(q.prompt).replace(/^Marlin Test\\s*\\d+\\s*[·•-]\\s*Exercise\\s*\\d+\\.\\s*/i,'');
+ const passage=plain(q.passage);
+ let html='<article class="question"><div class="meta">QUESTION '+(i+1)+' OF '+total+'</div><h2>'+esc(prompt||'Question')+'</h2>';
+ if(passage&&passage!==prompt)html+='<div class="passage">'+esc(passage)+'</div>';
+ if(['listening','pronunciation','audio_picture'].includes(q.question_type)&&passage)html+='<button class="play" type="button" data-speak="'+i+'">▶ Play audio</button>';
  const media=safeUrl(q.media_url);
- if(media&&q.media_kind==='audio')html+='<audio class="audio" controls preload="none" src="'+esc(media)+'">Your browser does not support audio.</audio>';
- if(media&&q.media_kind==='image')html+='<img class="media-image" src="'+esc(media)+'" alt="Question image" loading="lazy">';
+ if(media&&String(q.media_kind||'').toLowerCase()==='audio')html+='<audio class="audio" controls preload="none" src="'+esc(media)+'">Your browser does not support audio.</audio>';
+ if(media&&String(q.media_kind||'').toLowerCase()==='image')html+='<img class="media-image" src="'+esc(media)+'" alt="Question image" loading="lazy">';
  if(q.question_type==='picture_matching'&&Array.isArray(q.matching_items)){
-  html+='<div class="picture-grid">'+q.matching_items.map((it,j)=>'<div class="picture"><span class="emoji">'+esc(it.emoji||it.picture||'⚓')+'</span><b>'+(j+1)+'. '+esc(it.picture||'Object')+'</b><p>'+esc(it.answer||'')+'</p></div>').join('')+'</div>';
+  html+='<div class="picture-grid">'+q.matching_items.map((it,j)=>{const icon=plain(it?.picture||it?.emoji||it?.image)||'⚓';const name=plain(it?.answer||it?.label||it?.name)||('Object '+(j+1));return '<div class="picture"><span class="emoji">'+esc(icon)+'</span><b>'+(j+1)+'. '+esc(name)+'</b></div>'}).join('')+'</div>';
  }else if(Array.isArray(q.options)&&q.options.length){
-  html+='<div class="'+(q.question_type==='audio_picture'?'picture-grid':'')+'">'+q.options.map((o,j)=>{const label=typeof o==='string'?o:(o.label||o.text||o.value||'');const url=safeUrl(label);return q.question_type==='audio_picture'?'<div class="picture"><span class="emoji">'+esc(o.emoji||(!url?label.split(/\s+/)[0]:'🖼️'))+'</span><div>'+imageOrText(label)+'</div><small>Picture '+(j+1)+'</small></div>':'<div class="option">'+(url?imageOrText(label):'<span>'+esc(label)+'</span>')+'</div>'}).join('')+'</div>';
+  const pictureMode=q.question_type==='audio_picture';
+  html+='<div class="'+(pictureMode?'picture-grid':'')+'">'+q.options.map((o,j)=>{
+   const label=plain(o?.label??o?.text??o?.value??o?.answer??o),icon=plain(o?.emoji||o?.picture||o?.icon),url=safeUrl(o?.image_url||o?.image||o?.src);
+   if(pictureMode)return '<div class="picture">'+(icon?'<span class="emoji">'+esc(icon)+'</span>':'')+(url?'<img class="media-image" src="'+esc(url)+'" alt="'+esc(label)+'" loading="lazy">':'')+'<b>'+esc(label||('Picture '+(j+1)))+'</b></div>';
+   return '<div class="option">'+(url?'<img class="media-image" src="'+esc(url)+'" alt="'+esc(label)+'" loading="lazy">':'')+'<span>'+esc(label||('Option '+(j+1)))+'</span></div>';
+  }).join('')+'</div>';
  }
- if(q.correct_answer)html+='<div class="answer">Correct answer: '+esc(q.correct_answer)+'</div>';
- if(q.explanation)html+='<p class="explain"><b>Explanation:</b> '+esc(q.explanation)+'</p>';
+ const answer=plain(q.correct_answer),explanation=plain(q.explanation);
+ if(answer)html+='<div class="answer">Correct answer: '+esc(answer)+'</div>';
+ if(explanation)html+='<p class="explain"><b>Explanation:</b> '+esc(explanation)+'</p>';
  return html+'</article>';
 }
 document.getElementById('stopAudio').onclick=()=>{if('speechSynthesis'in window)speechSynthesis.cancel();document.querySelectorAll('audio').forEach(a=>a.pause())};
@@ -46,7 +65,7 @@ document.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&['p','s'].inc
   const res=await fetch(API,{method:'POST',headers:{'Content-Type':'application/json','apikey':KEY},body:JSON.stringify({action:'topic_study_content',topicId:id})});
   const data=await res.json();if(!res.ok)throw new Error(data.error||'Could not load study material.');
   const questions=data.questions||[];window.studyQuestions=questions;
-  document.getElementById('topicMeta').textContent=questions.length+' active questions · Answers, explanations, images and audio where available';
+  document.getElementById('topicMeta').textContent=questions.length+' active questions · Answers and explanations included; audio/pictures shown where supplied';
   root.className='';root.innerHTML=questions.length?questions.map(renderQuestion).join(''):'<p class="loading">No active questions are available for this topic.</p>';
  }catch(err){root.className='error';root.textContent=err.message}
 })();
