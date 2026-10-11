@@ -20,7 +20,7 @@ const plain=v=>{
  if(typeof v==='object'){for(const k of ['label','text','value','answer','name','title','word','picture'])if(v[k]!==undefined&&v[k]!==null)return plain(v[k]);return ''}
  return '';
 };
-const assetSlug=v=>plain(v).normalize('NFKD').replace(/[^\\x00-\\x7F]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const assetSlug=v=>plain(v).replace(/[^A-Za-z0-9 ]/g,'').trim().toLowerCase().replace(/\s+/g,'-');
 const imageAsset=v=>'./media/images/maritime-icons.svg#'+assetSlug(v);
 const safeUrl=v=>{if(typeof v!=='string')return '';try{const u=new URL(v.trim());return (u.protocol==='https:'||u.protocol==='http:')?u.href:''}catch{return ''}};
 const speak=text=>{
@@ -34,7 +34,7 @@ function renderQuestion(q,i,total){
  const prompt=plain(q.prompt).replace(/^Marlin Test\s*\d+\s*[·•-]\s*Exercise\s*\d+\.\s*/i,'');
  const passage=plain(q.passage);
  let html='<article class="question"><div class="meta">QUESTION '+(i+1)+' OF '+total+'</div><h2>'+esc(prompt||'Question')+'</h2>';
- if(passage&&passage!==prompt)html+='<div class="passage">'+esc(passage)+'</div>';
+ if(passage&&passage!==prompt&&q.question_type!=='audio_picture')html+='<div class="passage">'+esc(passage)+'</div>';
  if(['listening','pronunciation','audio_picture'].includes(q.question_type)&&passage)html+='<button class="play" type="button" data-speak="'+i+'">▶ Play audio</button>';
  const media=safeUrl(q.media_url);
  if(media&&String(q.media_kind||'').toLowerCase()==='audio')html+='<audio class="audio" controls preload="none" src="'+esc(media)+'">Your browser does not support audio.</audio>';
@@ -50,8 +50,8 @@ function renderQuestion(q,i,total){
   }).join('')+'</div>';
  }
  const answer=plain(q.correct_answer),explanation=plain(q.explanation);
- if(answer)html+='<div class="answer">Correct answer: '+esc(answer)+'</div>';
- if(explanation)html+='<p class="explain"><b>Explanation:</b> '+esc(explanation)+'</p>';
+ if(answer&&q.question_type!=='audio_picture')html+='<div class="answer">Correct answer: '+esc(answer)+'</div>';
+ if(explanation&&q.question_type!=='audio_picture')html+='<p class="explain"><b>Explanation:</b> '+esc(explanation)+'</p>';
  return html+'</article>';
 }
 document.getElementById('stopAudio').onclick=()=>{if('speechSynthesis'in window)speechSynthesis.cancel();document.querySelectorAll('audio').forEach(a=>a.pause())};
