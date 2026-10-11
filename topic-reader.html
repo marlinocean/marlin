@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Topic Study Reader | Ocean Star Marine Academy</title><meta name="theme-color" content="#071a2c"><link rel="icon" type="image/svg+xml" href="./favicon.svg">
+<style>
+:root{--navy:#071a2c;--panel:#102f4c;--line:#24445f;--gold:#d8b56d;--ink:#eaf0f5;--muted:#9bb0c2;--green:#69c6a0}
+*{box-sizing:border-box}body{margin:0;background:var(--navy);color:var(--ink);font:16px/1.6 Inter,system-ui,sans-serif}header{position:sticky;top:0;z-index:5;background:#061727f2;border-bottom:1px solid var(--line);padding:12px max(16px,calc((100vw - 1050px)/2));display:flex;justify-content:space-between;align-items:center;gap:12px}header a{color:var(--gold);text-decoration:none}.brand{font-weight:800;letter-spacing:.07em;font-size:13px}.wrap{max-width:1050px;margin:auto;padding:28px 18px 60px}.hero{padding:22px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(145deg,#123552,#0b243a);margin-bottom:18px}.eyebrow{color:var(--gold);font-size:11px;letter-spacing:.16em;font-weight:800}.hero h1{margin:5px 0;font-size:clamp(24px,4vw,36px)}.muted{color:var(--muted)}.question{padding:22px;border:1px solid var(--line);border-radius:16px;background:#0d2943;margin:14px 0;break-inside:avoid}.meta{color:var(--gold);font-size:11px;font-weight:800;letter-spacing:.12em}.question h2{font-size:20px;line-height:1.45;margin:8px 0 14px}.passage{padding:14px;background:#071e31;border-radius:12px;white-space:pre-wrap;margin:12px 0}.option{display:flex;gap:12px;align-items:flex-start;margin:9px 0;padding:11px;border:1px solid #24445f;border-radius:11px}.option img,.media-image{max-width:220px;max-height:180px;object-fit:contain;border-radius:10px;display:block}.picture-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr));gap:12px;margin-top:12px}.picture{border:1px solid var(--line);padding:12px;border-radius:12px;text-align:center;background:#071e31}.emoji{font-size:46px;display:block}.match-row{display:flex;align-items:center;gap:12px;padding:10px;border-bottom:1px solid var(--line)}.match-row .emoji{font-size:32px}.play{background:#d8b56d;color:#10263a;border:0;border-radius:9px;padding:10px 14px;font-weight:800;cursor:pointer;margin:8px 8px 8px 0}.audio{width:min(100%,420px);display:block;margin:10px 0}.answer{color:var(--green);margin-top:16px;font-weight:700}.explain{color:#c1d0dc}.loading,.error{padding:30px;text-align:center;color:var(--muted)}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}.toolbar button{border:1px solid var(--line);background:#173b59;color:var(--ink);border-radius:10px;padding:9px 12px;cursor:pointer}@media(max-width:600px){.wrap{padding:18px 12px 45px}.question{padding:15px}.question h2{font-size:18px}header{padding:12px}}@media print{body{display:none!important}}
+</style></head><body>
+<header><div class="brand">⚓ OCEAN STAR MARINE ACADEMY</div><a href="./">← Back to Test Series</a></header>
+<main class="wrap"><section class="hero"><div class="eyebrow">MARLIN TEST SERIES · TOPIC STUDY MATERIAL</div><h1 id="topicTitle">Loading topic…</h1><div id="topicMeta" class="muted">Fetching active questions</div><div class="toolbar"><button id="stopAudio" type="button">■ Stop audio</button><button id="topBtn" type="button">↑ Back to top</button></div></section><div id="content" class="loading">Loading study material…</div></main>
+<script>
+const API='https://tzfsjpqammpcysqjqmmi.supabase.co/functions/v1/marlin-api';
+const KEY='sb_publishable_AJLiFAV6EW64S1-T6UYsqQ_e-ZhjaIA';
+const names=['Grammar','Vocabulary','Listening','Reading','Correct Spelling','Pronunciation','Numbers & Time','Maritime English','Audio to Picture','Picture Word Matching','Paragraph Title Selection','Sentence Arrangement'];
+const id=Number(new URLSearchParams(location.search).get('topic'));
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const safeUrl=v=>{try{const u=new URL(v,location.href);return ['https:','http:'].includes(u.protocol)?u.href:''}catch{return ''}};
+const speak=text=>{if(!('speechSynthesis'in window)){alert('Audio playback is not supported in this browser.');return}speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(String(text||''));u.lang='en-US';u.rate=.88;speechSynthesis.speak(u)};
+const imageOrText=(value)=>{const u=safeUrl(value);return u?'<img src="'+esc(u)+'" alt="Study picture" loading="lazy">':'<span>'+esc(value)+'</span>'};
+function renderQuestion(q,i,total){
+ const prompt=String(q.prompt||'').replace(/^Marlin Test\s*\d+\s*[·•-]\s*Exercise\s*\d+\.\s*/i,'');
+ let html='<article class="question"><div class="meta">QUESTION '+(i+1)+' OF '+total+'</div><h2>'+esc(prompt)+'</h2>';
+ if(q.passage)html+='<div class="passage">'+esc(q.passage)+'</div>';
+ if(['listening','pronunciation','audio_picture'].includes(q.question_type)&&q.passage)html+='<button class="play" type="button" data-speak="'+i+'">▶ Play audio</button>';
+ const media=safeUrl(q.media_url);
+ if(media&&q.media_kind==='audio')html+='<audio class="audio" controls preload="none" src="'+esc(media)+'">Your browser does not support audio.</audio>';
+ if(media&&q.media_kind==='image')html+='<img class="media-image" src="'+esc(media)+'" alt="Question image" loading="lazy">';
+ if(q.question_type==='picture_matching'&&Array.isArray(q.matching_items)){
+  html+='<div class="picture-grid">'+q.matching_items.map((it,j)=>'<div class="picture"><span class="emoji">'+esc(it.emoji||it.picture||'⚓')+'</span><b>'+(j+1)+'. '+esc(it.picture||'Object')+'</b><p>'+esc(it.answer||'')+'</p></div>').join('')+'</div>';
+ }else if(Array.isArray(q.options)&&q.options.length){
+  html+='<div class="'+(q.question_type==='audio_picture'?'picture-grid':'')+'">'+q.options.map((o,j)=>{const label=typeof o==='string'?o:(o.label||o.text||o.value||'');const url=safeUrl(label);return q.question_type==='audio_picture'?'<div class="picture"><span class="emoji">'+esc(o.emoji||(!url?label.split(/\s+/)[0]:'🖼️'))+'</span><div>'+imageOrText(label)+'</div><small>Picture '+(j+1)+'</small></div>':'<div class="option">'+(url?imageOrText(label):'<span>'+esc(label)+'</span>')+'</div>'}).join('')+'</div>';
+ }
+ if(q.correct_answer)html+='<div class="answer">Correct answer: '+esc(q.correct_answer)+'</div>';
+ if(q.explanation)html+='<p class="explain"><b>Explanation:</b> '+esc(q.explanation)+'</p>';
+ return html+'</article>';
+}
+document.getElementById('stopAudio').onclick=()=>{if('speechSynthesis'in window)speechSynthesis.cancel();document.querySelectorAll('audio').forEach(a=>a.pause())};
+document.getElementById('topBtn').onclick=()=>window.scrollTo({top:0,behavior:'smooth'});
+document.addEventListener('click',e=>{const b=e.target.closest('[data-speak]');if(b){const q=window.studyQuestions?.[Number(b.dataset.speak)];if(q)speak(q.passage||q.prompt)}});
+document.addEventListener('contextmenu',e=>e.preventDefault());
+document.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&['p','s'].includes(e.key.toLowerCase())){e.preventDefault();e.stopPropagation()}});
+(async()=>{
+ const root=document.getElementById('content');
+ if(!Number.isInteger(id)||id<1||id>12){root.className='error';root.textContent='Invalid topic link.';return}
+ document.getElementById('topicTitle').textContent=names[id-1];
+ try{
+  const res=await fetch(API,{method:'POST',headers:{'Content-Type':'application/json','apikey':KEY},body:JSON.stringify({action:'topic_study_content',topicId:id})});
+  const data=await res.json();if(!res.ok)throw new Error(data.error||'Could not load study material.');
+  const questions=data.questions||[];window.studyQuestions=questions;
+  document.getElementById('topicMeta').textContent=questions.length+' active questions · Answers, explanations, images and audio where available';
+  root.className='';root.innerHTML=questions.length?questions.map(renderQuestion).join(''):'<p class="loading">No active questions are available for this topic.</p>';
+ }catch(err){root.className='error';root.textContent=err.message}
+})();
+</script></body></html>
