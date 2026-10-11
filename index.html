@@ -101,6 +101,12 @@ body.exam-active #questionCard .question h2{margin-top:0}
 .student-search input{flex:1;min-width:0}
 .delete-attempt{white-space:nowrap;padding:9px 13px}
 @media(max-width:640px){.student-search{align-items:stretch}.student-search button{flex:0 0 auto}.table{min-width:650px}#studentList,#attemptList{overflow-x:auto}}
+
+/* Native emoji illustrations avoid broken third-party image CDN requests. */
+.picture-choice .picture-emoji,.picture-emoji{display:flex;align-items:center;justify-content:center;font-family:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;font-size:clamp(58px,8vw,88px);line-height:1.25;min-height:112px;width:100%;font-weight:400}
+.picture-choice .picture-emoji{margin:4px auto 8px}
+.picture-match-row>.picture-emoji{flex:0 0 104px;width:104px;min-height:88px;font-size:64px}
+@media(max-width:560px){.picture-choice .picture-emoji,.picture-emoji{font-size:58px;min-height:84px}.picture-match-row>.picture-emoji{flex-basis:76px;width:76px;font-size:48px;min-height:68px}}
 </style></head>
 <body>
 <header><div class="brand"><div class="mark">⚓</div><div><b>OCEAN STAR MARINE ACADEMY</b><small>MARLIN TEST SERIES</small></div></div><div class="row"><span class="pill" id="modePill">SECURE PORTAL</span><button class="secondary hidden" id="logoutBtn">Sign out</button></div></header>
@@ -180,7 +186,8 @@ $('startTest').onclick=async()=>{const startButton=$('startTest');startButton.di
  answers={};current=0;$('studentReady').classList.add('hidden');$('examView').classList.remove('hidden');document.body.classList.add('exam-active');
  $('examLabel').textContent=meta.title.toUpperCase();renderQuestion();startTimer();
  }catch(e){alert(e.message)}finally{startButton.disabled=false}};
-function emojiPictureUrl(label){const emoji=String(label||'').trim().split(/\\s+/)[0];const code=Array.from(emoji).map(ch=>ch.codePointAt(0).toString(16)).filter(cp=>cp!=='fe0f'&&cp!=='fe0e').join('-');return 'https://cdn.jsdelivr.net/gh/jdecked/twemoji@latest/assets/svg/'+code+'.svg'}
+function pictureEmoji(label){const value=String(label||'').trim();const match=value.match(/^(?:\\p{Extended_Pictographic}|\\p{Regional_Indicator})[\\p{Emoji_Modifier}\\uFE0F\\u200D\\p{Extended_Pictographic}\\p{Regional_Indicator}]*/u);return match?match[0]:Array.from(value.split(/\\s+/)[0]||'')[0]||'⚓'}
+function pictureEmojiHtml(label,index){return '<span class="picture-emoji" role="img" aria-label="'+String(label||'Picture '+index).replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]))+'">'+pictureEmoji(label)+'</span>'}
 function playQuestionAudio(){const q=questions[current];if(!q||!q.passage)return;if(!('speechSynthesis' in window)){alert('Audio playback is not supported in this browser.');return}window.speechSynthesis.cancel();const utterance=new SpeechSynthesisUtterance(q.passage);utterance.lang='en-US';utterance.rate=.88;window.speechSynthesis.speak(utterance)}
 function renderQuestion(){
  const q=questions[current];$('examProgress').textContent='Question '+(current+1)+' of '+questions.length;
@@ -192,9 +199,9 @@ function renderQuestion(){
  const mediaHtml=q.media_url?(q.media_kind==='audio'?'<audio controls src="'+q.media_url+'"></audio>':'<img alt="Question media" src="'+q.media_url+'" style="max-width:100%;border-radius:12px">'):'';
  let answerHtml='';
  if(q.question_type==='picture_matching'){
-  answerHtml='<div class="panel picture-matching-list" style="margin-top:16px"><h3>Match all five objects</h3>'+(q.matching_items||[]).map((item,i)=>{const choices=[...new Set([item.answer,...(item.choices||[]).map(c=>typeof c==='string'?c:c.answer)])];return '<div class="picture-match-row"><img class="match-picture" src="'+emojiPictureUrl(item.picture)+'" alt="Object '+(i+1)+'"><div class="match-select-wrap"><select class="match-select" data-match="'+i+'"><option value="">Choose the English word</option>'+choices.map(word=>'<option value="'+String(word).replace(/"/g,'&quot;')+'" '+(saved[item.picture]===word?'selected':'')+'>'+word+'</option>').join('')+'</select></div></div>'}).join('')+'</div>';
+  answerHtml='<div class="panel picture-matching-list" style="margin-top:16px"><h3>Match all five objects</h3>'+(q.matching_items||[]).map((item,i)=>{const choices=[...new Set([item.answer,...(item.choices||[]).map(c=>typeof c==='string'?c:c.answer)])];return '<div class="picture-match-row">'+pictureEmojiHtml(item.picture,i+1)+'<div class="match-select-wrap"><select class="match-select" data-match="'+i+'"><option value="">Choose the English word</option>'+choices.map(word=>'<option value="'+String(word).replace(/"/g,'&quot;')+'" '+(saved[item.picture]===word?'selected':'')+'>'+word+'</option>').join('')+'</select></div></div>'}).join('')+'</div>';
  }else if(q.question_type==='audio_picture'){
-  answerHtml='<div class="picture-choice-grid">'+(q.options||[]).map((o,i)=>{const emoji=String(o.label||'').trim().split(/\\s+/)[0];return '<label class="picture-choice"><input type="radio" name="answer" value="'+String(o.label).replace(/"/g,'&quot;')+'" '+(answers[q.id]===o.label?'checked':'')+'><span><img src="'+emojiPictureUrl(emoji)+'" alt="Picture choice '+(i+1)+'"><small>Picture '+(i+1)+'</small></span></label>'}).join('')+'</div>';
+  answerHtml='<div class="picture-choice-grid">'+(q.options||[]).map((o,i)=>{const emoji=String(o.label||'').trim().split(/\\s+/)[0];return '<label class="picture-choice"><input type="radio" name="answer" value="'+String(o.label).replace(/"/g,'&quot;')+'" '+(answers[q.id]===o.label?'checked':'')+'><span>'+pictureEmojiHtml(o.label,i+1)+'<small>Picture '+(i+1)+'</small></span></label>'}).join('')+'</div>';
  }else if(q.question_type==='paragraph_title'){
   const paras=(q.passage||'').split(/\n\s*\n/);answerHtml='<div class="panel paragraph-set"><h3>Read each paragraph and choose its title</h3>'+paras.map((p,i)=>'<div class="paragraph-card"><b>Paragraph '+(i+1)+'</b><p>'+p.replace(/\n/g,'<br>')+'</p><select class="paragraph-title-select" data-paragraph="'+i+'"><option value="">Choose the best title</option>'+(q.options||[]).map(o=>'<option value="'+o.label.replace(/"/g,'&quot;')+'" '+(saved[i]===o.label?'selected':'')+'>'+o.label+'</option>').join('')+'</select></div>').join('')+'</div>';
  }else if(q.question_type==='sentence_arrangement'){
