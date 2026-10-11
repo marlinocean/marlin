@@ -61,6 +61,22 @@ main{max-width:1180px;margin:0 auto;padding:42px 22px 70px}.eyebrow{color:var(--
  .mode-pill{display:none}
  .stats{grid-template-columns:1fr 1fr}
 }
+
+/* Minimal distraction-free student examination screen */
+.exam-controls{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:16px 0 30px;flex-wrap:wrap}
+.exam-controls button{min-width:120px}
+body.exam-active header,body.exam-active footer{display:none!important}
+body.exam-active main{max-width:1100px;padding-top:22px;padding-bottom:24px}
+body.exam-active #examView{width:100%}
+body.exam-active #questionCard .question{padding:30px;border-radius:20px}
+body.exam-active #questionCard .question h2{margin-top:0;font-size:clamp(22px,3vw,32px);line-height:1.45}
+body.exam-active .exam-controls{position:sticky;bottom:0;background:#071a2c;padding:12px 0;z-index:5}
+@media(max-width:600px){
+ body.exam-active main{padding:12px 10px 18px}
+ body.exam-active #questionCard .question{padding:18px 14px}
+ .exam-controls{gap:8px}
+ .exam-controls button{min-width:0;flex:1;padding:12px 9px;font-size:13px}
+}
 </style></head>
 <body>
 <header><div class="brand"><div class="mark">⚓</div><div><b>OCEAN STAR MARINE ACADEMY</b><small>MARLIN TEST SERIES</small></div></div><div class="row"><span class="pill" id="modePill">SECURE PORTAL</span><button class="secondary hidden" id="logoutBtn">Sign out</button></div></header>
@@ -81,10 +97,10 @@ main{max-width:1180px;margin:0 auto;padding:42px 22px 70px}.eyebrow{color:var(--
 <div class="hero"><div><div class="eyebrow">Official assessment · Marlin series</div><h1 id="studentHeading">Your examination</h1><p id="studentSub" class="muted">Ocean Star Marine Academy</p></div><div class="pill">INVITATION VERIFIED</div></div>
 <div id="studentLogin" class="panel narrow"><h2>Candidate verification</h2><p class="muted">Enter the name and phone number registered with this personal invitation.</p><label>Full name</label><input id="candidateName" placeholder="Your full name"><label>Phone number</label><input id="candidatePhone" inputmode="tel" placeholder="Registered phone number"><button id="verifyCandidate" style="margin-top:16px;width:100%">Verify invitation</button><div id="candidateError" class="error"></div></div>
 <div id="studentReady" class="panel hidden"><div class="eyebrow">Before you begin</div><h2 id="readyTitle">Marlin Test</h2><div class="stats"><div class="stat"><strong id="readyCount">60</strong><span>QUESTIONS</span></div><div class="stat"><strong id="readyTime">60</strong><span>MINUTES</span></div><div class="stat"><strong>12</strong><span>TOPICS</span></div><div class="stat"><strong>+1</strong><span>PER CORRECT ANSWER</span></div></div><ul class="muted"><li>Each question carries one mark. No negative marking.</li><li>Your answers save as you move through the test.</li><li>Once started, this invitation can only be used for this one attempt.</li><li>After submission, detailed answer review is available for 15 minutes.</li></ul><button id="startTest">Start examination →</button></div>
-<div id="examView" class="hidden"><div class="panel row between"><div><div class="eyebrow" id="examLabel">MARLIN TEST</div><div class="muted" id="examProgress">Question 1 of 60</div></div><div class="timer" id="timer">60:00</div></div><div class="grid" style="grid-template-columns:minmax(0,2fr) minmax(210px,1fr);margin-top:15px"><div><div id="questionCard"></div><div class="row between"><button class="secondary" id="prevQuestion">← Previous</button><div class="row"><button class="secondary" id="markReview">Mark review</button><button id="nextQuestion">Next →</button></div></div></div><div class="panel"><h3>Question navigator</h3><div class="qnav" id="qnav"></div><p class="muted" style="font-size:12px">Green = answered · Gold outline = current</p><button id="submitTest" class="danger" style="width:100%;margin-top:15px">Submit test</button></div></div></div>
+<div id="examView" class="hidden"><div id="questionCard"></div><div class="exam-controls"><button class="secondary" id="prevQuestion">← Previous</button><button id="nextQuestion">Next →</button><button class="danger" id="submitTest">Submit test</button><button id="markReview" class="hidden" type="button">Mark review</button><span id="examLabel" class="hidden">MARLIN TEST</span><span id="examProgress" class="hidden">Question 1 of 60</span><span id="timer" class="hidden">60:00</span><div id="qnav" class="hidden"></div></div></div>
 <div id="resultView" class="panel hidden"><div class="eyebrow">Assessment complete</div><h1>Your result</h1><div class="stats"><div class="stat"><strong id="resultScore">0</strong><span>SCORE</span></div><div class="stat"><strong id="resultPercent">0%</strong><span>PERCENTAGE</span></div><div class="stat"><strong id="reviewTimer">15:00</strong><span>REVIEW REMAINING</span></div><div class="stat"><strong id="resultTotal">60</strong><span>TOTAL MARKS</span></div></div><p class="muted">Your score is saved in the academy record. You can inspect your answers and correct answers during the review window.</p><button id="openReview">Review answers</button><div id="reviewContent"></div></div>
 </section>
-</main><footer>OCEAN STAR MARINE ACADEMY · SATPAL SWAMI</footer>
+</main><footer></footer>
 <script>
 const PROJECT='https://tzfsjpqammpcysqjqmmi.supabase.co';
 const API=PROJECT+'/functions/v1/marlin-api';
@@ -113,7 +129,7 @@ async function loadStudents(){try{const d=await api('admin_list_students',{},tru
 function renderAttempts(rows){return '<table class="table"><tr><th>Test</th><th>Student ID</th><th>Status</th><th>Score</th><th>Date</th></tr>'+rows.map(a=>'<tr><td>Marlin '+a.test_id+'</td><td>'+a.student_id.slice(0,8)+'…</td><td>'+a.status+'</td><td>'+(a.score??'—')+'/'+a.max_score+'</td><td>'+new Date(a.started_at).toLocaleDateString()+'</td></tr>').join('')+'</table>'}
 async function verifyInvite(){show('studentView');try{const d=await api('student_open',{token:inviteToken,name:$('candidateName').value,phone:$('candidatePhone').value});candidate={name:$('candidateName').value.trim(),phone:$('candidatePhone').value.replace(/\D/g,'')};meta=d.test;$('studentLogin').classList.add('hidden');$('studentReady').classList.remove('hidden');$('studentHeading').textContent='Welcome, '+candidate.name;$('studentSub').textContent='Your personal examination invitation is verified.';$('readyTitle').textContent=d.test.title;$('readyCount').textContent=d.test.total_questions;$('readyTime').textContent=d.test.duration_minutes}catch(e){msg('candidateError',e.message)}}
 $('verifyCandidate').onclick=verifyInvite;
-$('startTest').onclick=async()=>{try{const d=await api('student_start',{token:inviteToken,...candidate});attempt=d.attempt;attemptToken=d.attemptAccessToken;questions=d.questions;answers={};current=0;$('studentReady').classList.add('hidden');$('examView').classList.remove('hidden');$('examLabel').textContent=meta.title.toUpperCase();renderQuestion();startTimer()}catch(e){alert(e.message)}};
+$('startTest').onclick=async()=>{try{const d=await api('student_start',{token:inviteToken,...candidate});attempt=d.attempt;attemptToken=d.attemptAccessToken;questions=d.questions;answers={};current=0;$('studentReady').classList.add('hidden');$('examView').classList.remove('hidden');document.body.classList.add('exam-active');$('examLabel').textContent=meta.title.toUpperCase();renderQuestion();startTimer()}catch(e){alert(e.message)}};
 function playQuestionAudio(){const q=questions[current];if(!q||!q.passage)return;if(!('speechSynthesis' in window)){alert('Audio playback is not supported in this browser.');return}window.speechSynthesis.cancel();const utterance=new SpeechSynthesisUtterance(q.passage);utterance.lang='en-US';utterance.rate=.88;window.speechSynthesis.speak(utterance)}
 function renderQuestion(){
  const q=questions[current];$('examProgress').textContent='Question '+(current+1)+' of '+questions.length;
@@ -133,7 +149,7 @@ function renderQuestion(){
  }else{
   answerHtml=(q.options||[]).map(o=>'<label class="option"><input type="radio" name="answer" value="'+String(o.label).replace(/"/g,'&quot;')+'" '+(answers[q.id]===o.label?'checked':'')+'><span>'+(o.label.startsWith('http')?'<img src="'+o.label+'" style="max-width:120px;max-height:90px">':o.label)+'</span></label>').join('');
  }
- $('questionCard').innerHTML='<div class="question"><div class="eyebrow">'+TOPICS[q.topic_id-1]+' · '+q.question_type.replace('_',' ')+'</div>'+passageHtml+audioButton+mediaHtml+'<h2>'+q.prompt+'</h2>'+answerHtml+'</div>';
+ $('questionCard').innerHTML='<div class="question"><h2>'+q.prompt+'</h2>'+passageHtml+audioButton+mediaHtml+answerHtml+'</div>';
  $('prevQuestion').disabled=current===0;$('nextQuestion').textContent=current===questions.length-1?'Last question':'Next →';
  $('qnav').innerHTML=questions.map((q,i)=>'<button class="secondary '+(i===current?'current ':'')+(answers[q.id]?'answered':'')+'" onclick="jumpQuestion('+i+')">'+(i+1)+'</button>').join('');
 }
@@ -161,7 +177,7 @@ $('nextQuestion').onclick=async()=>{await saveCurrent();if(current<questions.len
 $('markReview').onclick=()=>{marked.add(questions[current].id);$('markReview').textContent='Marked ✓'};
 function startTimer(){let ends=new Date(attempt.ends_at).getTime();const tick=()=>{let s=Math.max(0,Math.floor((ends-Date.now())/1000));$('timer').textContent=String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0');if(s<=0){clearInterval(timerHandle);submitExam(true)}};tick();timerHandle=setInterval(tick,1000)}
 $('submitTest').onclick=()=>submitExam(false);
-async function submitExam(auto){if(!auto&&!confirm('Submit your examination now? You cannot attempt it again.'))return;clearInterval(timerHandle);await saveCurrent();try{const d=await api('student_submit',{attemptId:attempt.id,attemptAccessToken:attemptToken});$('examView').classList.add('hidden');$('resultView').classList.remove('hidden');$('resultScore').textContent=d.score;$('resultTotal').textContent=d.maxScore;$('resultPercent').textContent=Math.round(d.score/d.maxScore*100)+'%';startReviewCountdown(d.reviewExpiresAt)}catch(e){alert(e.message)}}
+async function submitExam(auto){if(!auto&&!confirm('Submit your examination now? You cannot attempt it again.'))return;clearInterval(timerHandle);await saveCurrent();try{const d=await api('student_submit',{attemptId:attempt.id,attemptAccessToken:attemptToken});$('examView').classList.add('hidden');document.body.classList.remove('exam-active');$('resultView').classList.remove('hidden');$('resultScore').textContent=d.score;$('resultTotal').textContent=d.maxScore;$('resultPercent').textContent=Math.round(d.score/d.maxScore*100)+'%';startReviewCountdown(d.reviewExpiresAt)}catch(e){alert(e.message)}}
 function reviewAnswer(q,raw){if(!raw)return 'Not answered';if(q.question_type==='paragraph_title'){try{return JSON.parse(raw).map((v,i)=>'Paragraph '+(i+1)+': '+v).join(' · ')}catch{}}if(q.question_type==='sentence_arrangement'){try{return JSON.parse(raw).map(id=>q.options.find(o=>o.id===id)?.label||'').filter(Boolean).join(' ').replace(/\\s+([.,!?])/g,'$1')}catch{}}if(q.question_type==='picture_matching'){try{return Object.entries(JSON.parse(raw)).map(([k,v])=>k+' = '+v).join(' · ')}catch{}}return raw}
 function startReviewCountdown(expires){const tick=()=>{let s=Math.max(0,Math.floor((new Date(expires)-Date.now())/1000));$('reviewTimer').textContent=Math.floor(s/60)+':'+String(s%60).padStart(2,'0');if(!s){clearInterval(reviewHandle);$('openReview').disabled=true;$('reviewContent').textContent='The 15-minute review window has ended.'}};tick();reviewHandle=setInterval(tick,1000)}
 $('openReview').onclick=async()=>{try{const d=await api('student_review',{attemptId:attempt.id,attemptAccessToken:attemptToken});const amap=new Map(d.answers.map(a=>[a.question_id,a]));$('reviewContent').innerHTML=d.questions.map((q,i)=>{const a=amap.get(q.id);return '<div class="question"><div class="eyebrow">'+TOPICS[q.topic_id-1]+' · Question '+(i+1)+'</div><h3>'+q.prompt+'</h3><p>Your answer: <b>'+reviewAnswer(q,a?.answer_text)+'</b> · <span style="color:'+(a?.is_correct?'var(--green)':'var(--red)')+'">'+(a?.is_correct?'Correct':'Incorrect')+'</span></p><p class="gold">Correct answer: '+q.correct_answer+'</p><p class="muted">'+(q.explanation||'')+'</p></div>'}).join('')}catch(e){$('reviewContent').textContent=e.message}};
