@@ -70,9 +70,35 @@ function renderAttempts(rows){return '<table class="table"><tr><th>Test</th><th>
 async function verifyInvite(){show('studentView');try{const d=await api('student_open',{token:inviteToken,name:$('candidateName').value,phone:$('candidatePhone').value});candidate={name:$('candidateName').value.trim(),phone:$('candidatePhone').value.replace(/\D/g,'')};meta=d.test;$('studentLogin').classList.add('hidden');$('studentReady').classList.remove('hidden');$('studentHeading').textContent='Welcome, '+candidate.name;$('studentSub').textContent='Your personal examination invitation is verified.';$('readyTitle').textContent=d.test.title;$('readyCount').textContent=d.test.total_questions;$('readyTime').textContent=d.test.duration_minutes}catch(e){msg('candidateError',e.message)}}
 $('verifyCandidate').onclick=verifyInvite;
 $('startTest').onclick=async()=>{try{const d=await api('student_start',{token:inviteToken,...candidate});attempt=d.attempt;attemptToken=d.attemptAccessToken;questions=d.questions;answers={};current=0;$('studentReady').classList.add('hidden');$('examView').classList.remove('hidden');$('examLabel').textContent=meta.title.toUpperCase();renderQuestion();startTimer()}catch(e){alert(e.message)}};
-function renderQuestion(){const q=questions[current];$('examProgress').textContent='Question '+(current+1)+' of '+questions.length;$('questionCard').innerHTML='<div class="question"><div class="eyebrow">'+TOPICS[q.topic_id-1]+' · '+q.question_type.replace('_',' ')+'</div>'+(q.passage?'<div class="panel" style="margin:14px 0">'+q.passage+'</div>':'')+(q.media_url?(q.media_kind==='audio'?'<audio controls src="'+q.media_url+'"></audio>':'<img alt="Question media" src="'+q.media_url+'" style="max-width:100%;border-radius:12px">'):'')+'<h2>'+q.prompt+'</h2>'+(q.options||[]).map(o=>'<label class="option"><input type="radio" name="answer" value="'+String(o.label).replace(/"/g,'&quot;')+'" '+(answers[q.id]===o.label?'checked':'')+'><span>'+(o.label.startsWith('http')?'<img src="'+o.label+'" style="max-width:120px;max-height:90px">':o.label)+'</span></label>').join('')+'</div>';$('prevQuestion').disabled=current===0;$('nextQuestion').textContent=current===questions.length-1?'Last question':'Next →';$('qnav').innerHTML=questions.map((q,i)=>'<button class="secondary '+(i===current?'current ':'')+(answers[q.id]?'answered':'')+'" onclick="jumpQuestion('+i+')">'+(i+1)+'</button>').join('')}
-async function saveCurrent(){const q=questions[current];if(!q)return;const chosen=document.querySelector('input[name="answer"]:checked');if(chosen)answers[q.id]=chosen.value;try{await api('student_save_answer',{attemptId:attempt.id,attemptAccessToken:attemptToken,questionId:q.id,answer:answers[q.id]??''})}catch(e){console.error(e)}}
-document.addEventListener('change',e=>{if(e.target.name==='answer')saveCurrent()});
+function playQuestionAudio(){const q=questions[current];if(!q||!q.passage)return;if(!('speechSynthesis' in window)){alert('Audio playback is not supported in this browser.');return}window.speechSynthesis.cancel();const utterance=new SpeechSynthesisUtterance(q.passage);utterance.lang='en-US';utterance.rate=.88;window.speechSynthesis.speak(utterance)}
+function renderQuestion(){
+ const q=questions[current];$('examProgress').textContent='Question '+(current+1)+' of '+questions.length;
+ let saved={};if(q.question_type==='picture_matching'&&answers[q.id]){try{saved=JSON.parse(answers[q.id])}catch{}}
+ const audioTypes=['listening','pronunciation','audio_picture'];
+ const audioButton=audioTypes.includes(q.question_type)&&q.passage?'<button class="secondary" onclick="playQuestionAudio()">▶ Play audio</button><p class="muted" style="font-size:12px">Listen carefully, then select your answer.</p>':'';
+ const passageHtml=q.question_type==='reading'&&q.passage?'<div class="panel" style="margin:14px 0">'+q.passage+'</div>':'';
+ const mediaHtml=q.media_url?(q.media_kind==='audio'?'<audio controls src="'+q.media_url+'"></audio>':'<img alt="Question media" src="'+q.media_url+'" style="max-width:100%;border-radius:12px">'):'';
+ let answerHtml='';
+ if(q.question_type==='picture_matching'){
+  answerHtml='<div class="panel" style="margin-top:16px"><h3>Match all five objects</h3>'+(q.matching_items||[]).map((item,i)=>{const choices=[...new Set([item.answer,...(item.choices||[])])];return '<div class="row between" style="padding:10px 0;border-bottom:1px solid var(--line)"><strong style="font-size:27px">'+item.picture+'</strong><div style="flex:1;max-width:290px"><select class="match-select" data-match="'+i+'"><option value="">Choose the English word</option>'+choices.map(word=>'<option value="'+word.replace(/"/g,'&quot;')+'" '+(saved[item.picture]===word?'selected':'')+'>'+word+'</option>').join('')+'</select></div></div>'}).join('')+'</div>';
+ }else{
+  answerHtml=(q.options||[]).map(o=>'<label class="option"><input type="radio" name="answer" value="'+String(o.label).replace(/"/g,'&quot;')+'" '+(answers[q.id]===o.label?'checked':'')+'><span>'+(o.label.startsWith('http')?'<img src="'+o.label+'" style="max-width:120px;max-height:90px">':o.label)+'</span></label>').join('');
+ }
+ $('questionCard').innerHTML='<div class="question"><div class="eyebrow">'+TOPICS[q.topic_id-1]+' · '+q.question_type.replace('_',' ')+'</div>'+passageHtml+audioButton+mediaHtml+'<h2>'+q.prompt+'</h2>'+answerHtml+'</div>';
+ $('prevQuestion').disabled=current===0;$('nextQuestion').textContent=current===questions.length-1?'Last question':'Next →';
+ $('qnav').innerHTML=questions.map((q,i)=>'<button class="secondary '+(i===current?'current ':'')+(answers[q.id]?'answered':'')+'" onclick="jumpQuestion('+i+')">'+(i+1)+'</button>').join('');
+}
+async function saveCurrent(){
+ const q=questions[current];if(!q)return;
+ if(q.question_type==='picture_matching'){
+  const map={};document.querySelectorAll('.match-select').forEach(sel=>{const item=q.matching_items[Number(sel.dataset.match)];if(item&&sel.value)map[item.picture]=sel.value});
+  if(Object.keys(map).length)answers[q.id]=JSON.stringify(map);
+ }else{
+  const chosen=document.querySelector('input[name="answer"]:checked');if(chosen)answers[q.id]=chosen.value;
+ }
+ try{await api('student_save_answer',{attemptId:attempt.id,attemptAccessToken:attemptToken,questionId:q.id,answer:answers[q.id]??''})}catch(e){console.error(e)}
+}
+document.addEventListener('change',e=>{if(e.target.name==='answer'||e.target.classList.contains('match-select'))saveCurrent()});
 window.jumpQuestion=async i=>{await saveCurrent();current=i;renderQuestion()};
 $('prevQuestion').onclick=async()=>{await saveCurrent();if(current>0){current--;renderQuestion()}};
 $('nextQuestion').onclick=async()=>{await saveCurrent();if(current<questions.length-1){current++;renderQuestion()}};
