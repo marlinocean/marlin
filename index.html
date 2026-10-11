@@ -4,6 +4,8 @@
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Ocean Star Marine Academy | Marlin Test Series</title>
 <meta name="theme-color" content="#071a2c">
+<link rel="icon" type="image/svg+xml" href="./favicon.svg">
+<link rel="apple-touch-icon" href="./favicon.svg">
 <style>
 :root{--navy:#071a2c;--navy2:#0d2943;--panel:#102f4c;--gold:#d8b56d;--gold2:#f0d99f;--ink:#eaf0f5;--muted:#9bb0c2;--line:#24445f;--green:#69c6a0;--red:#ff7f86}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 75% -15%,#173d5b 0,transparent 42%),var(--navy);color:var(--ink);font:15px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;min-height:100vh}
@@ -17,9 +19,49 @@ main{max-width:1180px;margin:0 auto;padding:42px 22px 70px}.eyebrow{color:var(--
 .question{padding:22px;border:1px solid var(--line);border-radius:18px;background:#0d2943;margin:15px 0}.option{display:flex;align-items:center;gap:12px;border:1px solid var(--line);padding:13px;border-radius:12px;margin:9px 0;cursor:pointer}.option:has(input:checked){border-color:var(--gold);background:#d8b56d12}.option input{width:auto;accent-color:var(--gold)}.timer{font-size:23px;font-weight:800;color:var(--gold2);font-variant-numeric:tabular-nums}.qnav{display:flex;gap:7px;flex-wrap:wrap}.qnav button{padding:8px 11px;min-width:38px}.qnav button.answered{background:#205c50;color:#fff}.qnav button.current{outline:2px solid var(--gold)}footer{text-align:center;padding:26px;color:#7890a4;border-top:1px solid #ffffff12;font-size:12px;letter-spacing:.18em}
 @media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}.stats{grid-template-columns:repeat(2,1fr)}.hero{display:block}.hero button{margin-top:18px}}
 @media(max-width:560px){header{height:66px;padding:0 15px}.brand b{font-size:11px}.grid{grid-template-columns:1fr}.stats{gap:8px}.stat{padding:12px}.panel{padding:18px}main{padding:28px 14px 50px}.table{display:block;overflow-x:auto;white-space:nowrap}}
-<style>
 .paragraph-set,.sentence-builder{margin-top:16px}.paragraph-card{padding:14px 0;border-bottom:1px solid var(--line)}.paragraph-card p{line-height:1.7;margin:8px 0 12px}.paragraph-card select{width:100%;max-width:420px}.word-bank{display:flex;flex-wrap:wrap;gap:9px;max-height:180px;overflow-y:auto;padding:10px;border:1px solid var(--line);border-radius:12px}.word-chip,.picked-word{border:1px solid var(--line);border-radius:9px;padding:9px 12px;background:rgba(255,255,255,.06);color:inherit;cursor:pointer}.word-chip:disabled{opacity:.3;cursor:not-allowed}.sentence-order{display:flex;flex-wrap:wrap;gap:8px;min-height:54px;padding:12px;border:1px dashed var(--gold);border-radius:12px;margin-bottom:12px}.picked-word{background:rgba(220,180,100,.15);border-color:var(--gold)}
-</style></style></head>
+
+/* Responsive refinements for phones, tablets and laptops */
+@media (min-width:1100px){main{padding-left:28px;padding-right:28px}}
+@media (max-width:900px){
+ header{padding-left:20px;padding-right:20px}
+ main{padding:32px 20px 56px}
+ .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .hero{align-items:flex-start}
+ .table{display:block;max-width:100%;overflow-x:auto}
+}
+@media (max-width:600px){
+ header{height:auto;min-height:64px;padding:10px 13px;gap:8px}
+ .brand{gap:9px;min-width:0}
+ .mark{width:36px;height:36px;flex:0 0 36px;font-size:19px}
+ .brand b{font-size:10px;letter-spacing:.045em;line-height:1.3}
+ .brand small{font-size:8px;letter-spacing:.14em}
+ header .row{gap:6px}
+ .pill{font-size:9px;padding:4px 7px}
+ main{padding:22px 12px 42px}
+ .narrow{margin:5vh auto}
+ .panel{padding:16px;border-radius:16px}
+ .hero h1{font-size:32px}
+ .grid{grid-template-columns:minmax(0,1fr);gap:11px}
+ .stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .stat{padding:12px}
+ .stat strong{font-size:23px}
+ .tabs{gap:6px}
+ .tabs button{padding:9px 10px;font-size:12px}
+ .question{padding:14px}
+ .row.between{align-items:flex-start}
+ button{max-width:100%}
+ input,select,textarea{min-width:0}
+ .table{font-size:12px}
+}
+@media (max-width:380px){
+ .brand b{font-size:9px}
+ .brand small{font-size:7px}
+ .mode-pill{display:none}
+ .stats{grid-template-columns:1fr 1fr}
+}
+</style></head>
 <body>
 <header><div class="brand"><div class="mark">⚓</div><div><b>OCEAN STAR MARINE ACADEMY</b><small>MARLIN TEST SERIES</small></div></div><div class="row"><span class="pill" id="modePill">SECURE PORTAL</span><button class="secondary hidden" id="logoutBtn">Sign out</button></div></header>
 <main>
