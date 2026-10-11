@@ -21,20 +21,20 @@ The current Edge Function also accepts a six-digit value in the legacy `MARLIN_A
 If the website still says the secret is missing, confirm that the secret is saved under **Edge Functions → Secrets** in project `tzfsjpqammpcysqjqmmi`, not in SQL Editor or a different Supabase project. Secret names are case-sensitive.
 
 ## Marlin question bank status
-- 1,740 active question records: 145 questions in each of 12 topics.
+- 1,750 active question records across 12 topics.
 - Topics 11 and 12 are **Paragraph Title Selection** and **Sentence Arrangement**.
 - Paragraph title questions contain three separate four-line paragraphs; students choose one title for each paragraph.
 - Sentence arrangement questions show shuffled word tiles; students tap the words in the correct order. Selected words can be removed and rebuilt.
-- Tests 01–05: 72 questions each (6 per topic), 60 minutes.
-- Tests 06–10: 120 questions each (10 per topic), 90 minutes.
-- Tests 11–15: 156 questions each (13 per topic), 125 minutes.
-- Question bank counts are checked across all 12 topics before publishing.
-- Listening, pronunciation and audio-to-picture prompts use browser speech synthesis for now; this is not a library of recorded native-speaker audio files.
-- Picture-to-word matching currently uses emoji object illustrations and a five-item matching interaction; replace these with licensed/custom illustrations before a commercial launch.
-- Tests remain unpublished until final end-to-end quality assurance and media review are complete.
+- Tests 01–05: 80 questions each; 6 questions in each of the ten standard topics and 10 questions in each picture topic; 60 minutes.
+- Tests 06–10: 120 questions each; 10 questions per topic; 120 minutes.
+- Tests 11–15: 150 questions each; 13 questions in each of the ten standard topics and 10 questions in each picture topic; 150 minutes.
+- Questions are delivered in topic order, not mixed across topics. Questions within each topic are selected in a shuffled order.
+- Audio → Picture has four illustrated picture choices per question. Spoken prompts use browser speech synthesis, not recorded native-speaker audio files.
+- Picture Word Matching shows five illustrated objects per question, with five English-word choices for each object. Picture assets are Twemoji SVG illustrations, not custom maritime photographs.
+- The published tests are available through single-use student invitations.
 
 ## Website
 https://marlinocean.github.io/marlin/
 
 ## Footer
-SATPAL SWAMI
+OCEAN STAR MARINE ACADEMY
