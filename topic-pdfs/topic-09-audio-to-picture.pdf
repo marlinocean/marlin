@@ -1,2196 +1,697 @@
 %PDF-1.4
-%MARLIN
 1 0 obj
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R 55 0 R 57 0 R 59 0 R 61 0 R 63 0 R 65 0 R] /Count 31 >>
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R] /Count 7 >>
 endobj
 3 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
 4 0 obj
-<< /Length 2848 >>
+<< /Length 1231 >>
 stream
-BT /F1 9 Tf 42 800 Td (OCEAN STAR MARINE ACADEMY) Tj ET
-BT /F1 9 Tf 42 786 Td (AUDIO TO PICTURE) Tj ET
-BT /F1 9 Tf 42 772 Td (Complete active question bank - all tests combined) Tj ET
-BT /F1 9 Tf 42 758 Td (Includes answer keys and explanations | Questions: 150) Tj ET
-BT /F1 9 Tf 42 744 Td () Tj ET
-BT /F1 9 Tf 42 730 Td (QUESTION 1 | MARLIN TEST 1 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 716 Td (Marlin Test 01 - Exercise 002. Listen to the spoken word and choose the matching picture.) Tj ET
-BT /F1 9 Tf 42 702 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 688 Td (Anchor) Tj ET
-BT /F1 9 Tf 42 674 Td (Options:) Tj ET
-BT /F1 9 Tf 42 660 Td (- Anchor) Tj ET
-BT /F1 9 Tf 42 646 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 632 Td (- Lifejacket) Tj ET
-BT /F1 9 Tf 42 618 Td (- Door) Tj ET
-BT /F1 9 Tf 42 604 Td (CORRECT ANSWER: Anchor) Tj ET
-BT /F1 9 Tf 42 590 Td (Explanation: The spoken word is Anchor.) Tj ET
-BT /F1 9 Tf 42 576 Td () Tj ET
-BT /F1 9 Tf 42 562 Td (QUESTION 2 | MARLIN TEST 1 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 548 Td (Marlin Test 01 - Exercise 003. Listen to the spoken word and choose the matching picture.) Tj ET
-BT /F1 9 Tf 42 534 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 520 Td (Lifejacket) Tj ET
-BT /F1 9 Tf 42 506 Td (Options:) Tj ET
-BT /F1 9 Tf 42 492 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 478 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 464 Td (- Door) Tj ET
-BT /F1 9 Tf 42 450 Td (- Lifejacket) Tj ET
-BT /F1 9 Tf 42 436 Td (CORRECT ANSWER: Lifejacket) Tj ET
-BT /F1 9 Tf 42 422 Td (Explanation: The spoken word is Lifejacket.) Tj ET
-BT /F1 9 Tf 42 408 Td () Tj ET
-BT /F1 9 Tf 42 394 Td (QUESTION 3 | MARLIN TEST 1 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 380 Td (Marlin Test 01 - Exercise 004. Listen to the spoken word and choose the matching picture.) Tj ET
-BT /F1 9 Tf 42 366 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 352 Td (Radio) Tj ET
-BT /F1 9 Tf 42 338 Td (Options:) Tj ET
-BT /F1 9 Tf 42 324 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 310 Td (- Wrench) Tj ET
-BT /F1 9 Tf 42 296 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 282 Td (- Door) Tj ET
-BT /F1 9 Tf 42 268 Td (CORRECT ANSWER: Radio) Tj ET
-BT /F1 9 Tf 42 254 Td (Explanation: The spoken word is Radio.) Tj ET
-BT /F1 9 Tf 42 240 Td () Tj ET
-BT /F1 9 Tf 42 226 Td (QUESTION 4 | MARLIN TEST 1 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 212 Td (Marlin Test 01 - Exercise 005. Listen to the spoken word and choose the matching picture.) Tj ET
-BT /F1 9 Tf 42 198 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 184 Td (Door) Tj ET
-BT /F1 9 Tf 42 170 Td (Options:) Tj ET
-BT /F1 9 Tf 42 156 Td (- Compass) Tj ET
-BT /F1 9 Tf 42 142 Td (- Door) Tj ET
-BT /F1 9 Tf 42 128 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 114 Td (- Wrench) Tj ET
-BT /F1 9 Tf 42 100 Td (CORRECT ANSWER: Door) Tj ET
-BT /F1 9 Tf 42 86 Td (Explanation: The spoken word is Door.) Tj ET
-BT /F1 9 Tf 42 72 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 1 of 31) Tj ET
+BT
+/F1 10 Tf
+48 790 Td
+13 TL
+(OCEAN STAR MARINE ACADEMY) Tj
+T*
+(MARLIN TEST SERIES - TOPIC 09) Tj
+T*
+(AUDIO TO PICTURE - UNIQUE QUESTION BANK) Tj
+T*
+(Unique spoken terms: 31 \(repeated spoken words removed\)) Tj
+T*
+() Tj
+T*
+(QUESTION 1) Tj
+T*
+(Radio) Tj
+T*
+(A. Rope) Tj
+T*
+(B. Wrench) Tj
+T*
+(C. Radio) Tj
+T*
+(D. Door) Tj
+T*
+(Correct answer: Radio) Tj
+T*
+(Explanation: The spoken word is Radio.) Tj
+T*
+() Tj
+T*
+(QUESTION 2) Tj
+T*
+(Lifejacket) Tj
+T*
+(A. Ship) Tj
+T*
+(B. Rescue boat) Tj
+T*
+(C. Ladder) Tj
+T*
+(D. Lifejacket) Tj
+T*
+(Correct answer: Lifejacket) Tj
+T*
+(Explanation: Listen to the word and identify its picture.) Tj
+T*
+() Tj
+T*
+(QUESTION 3) Tj
+T*
+(Torch) Tj
+T*
+(A. Binoculars) Tj
+T*
+(B. Whistle) Tj
+T*
+(C. Torch) Tj
+T*
+(D. Wrench) Tj
+T*
+(Correct answer: Torch) Tj
+T*
+(Explanation: Listen to the word and identify its picture.) Tj
+T*
+() Tj
+T*
+(QUESTION 4) Tj
+T*
+(Fire extinguisher) Tj
+T*
+(A. Radio) Tj
+T*
+(B. Fire extinguisher) Tj
+T*
+(C. Safety helmet) Tj
+T*
+(D. Bucket) Tj
+T*
+(Correct answer: Fire extinguisher) Tj
+T*
+(Explanation: Listen to the word and identify its picture.) Tj
+T*
+() Tj
+T*
+(QUESTION 5) Tj
+T*
+(Door) Tj
+T*
+(A. Compass) Tj
+T*
+(B. Door) Tj
+T*
+(C. Rope) Tj
+T*
+(D. Wrench) Tj
+T*
+(Correct answer: Door) Tj
+ET
 endstream
 endobj
 5 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
 endobj
 6 0 obj
-<< /Length 3186 >>
+<< /Length 1254 >>
 stream
-BT /F1 9 Tf 42 800 Td (QUESTION 5 | MARLIN TEST 1 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Marlin Test 01 - Exercise 006. Listen to the spoken word and choose the matching picture.) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Rope) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 716 Td (- Wrench) Tj ET
-BT /F1 9 Tf 42 702 Td (- Compass) Tj ET
-BT /F1 9 Tf 42 688 Td (- Lifeboat) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Rope) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken word is Rope.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 6 | MARLIN TEST 1 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Marlin Test 01 - Exercise 001. Listen to the spoken word and choose the matching picture.) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Anchor) Tj ET
-BT /F1 9 Tf 42 548 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 534 Td (- Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 520 Td (- Lifejacket) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken word is Fire extinguisher.) Tj ET
-BT /F1 9 Tf 42 478 Td () Tj ET
-BT /F1 9 Tf 42 464 Td (QUESTION 7 | MARLIN TEST 1 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 450 Td (Listen to the spoken word and choose the matching picture.) Tj ET
-BT /F1 9 Tf 42 436 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 422 Td (Torch) Tj ET
-BT /F1 9 Tf 42 408 Td (Options:) Tj ET
-BT /F1 9 Tf 42 394 Td (- Binoculars) Tj ET
-BT /F1 9 Tf 42 380 Td (- Whistle) Tj ET
-BT /F1 9 Tf 42 366 Td (- Torch) Tj ET
-BT /F1 9 Tf 42 352 Td (- Wrench) Tj ET
-BT /F1 9 Tf 42 338 Td (CORRECT ANSWER: Torch) Tj ET
-BT /F1 9 Tf 42 324 Td (Explanation: Listen to the word and identify its picture.) Tj ET
-BT /F1 9 Tf 42 310 Td () Tj ET
-BT /F1 9 Tf 42 296 Td (QUESTION 8 | MARLIN TEST 1 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 282 Td (Listen to the spoken word and choose the matching picture.) Tj ET
-BT /F1 9 Tf 42 268 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 254 Td (Lifejacket) Tj ET
-BT /F1 9 Tf 42 240 Td (Options:) Tj ET
-BT /F1 9 Tf 42 226 Td (- Ship) Tj ET
-BT /F1 9 Tf 42 212 Td (- Rescue boat) Tj ET
-BT /F1 9 Tf 42 198 Td (- Ladder) Tj ET
-BT /F1 9 Tf 42 184 Td (- Lifejacket) Tj ET
-BT /F1 9 Tf 42 170 Td (CORRECT ANSWER: Lifejacket) Tj ET
-BT /F1 9 Tf 42 156 Td (Explanation: Listen to the word and identify its picture.) Tj ET
-BT /F1 9 Tf 42 142 Td () Tj ET
-BT /F1 9 Tf 42 128 Td (QUESTION 9 | MARLIN TEST 1 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 114 Td (Listen to the spoken word and choose the matching picture.) Tj ET
-BT /F1 9 Tf 42 100 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 86 Td (Anchor) Tj ET
-BT /F1 9 Tf 42 72 Td (Options:) Tj ET
-BT /F1 9 Tf 42 58 Td (- Anchor) Tj ET
-BT /F1 9 Tf 42 44 Td (- Lifebuoy) Tj ET
-BT /F1 9 Tf 42 30 Td (- Compass) Tj ET
-BT /F1 9 Tf 42 16 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 2 Td (CORRECT ANSWER: Anchor) Tj ET
-BT /F1 9 Tf 42 -12 Td (Explanation: Listen to the word and identify its picture.) Tj ET
-BT /F1 9 Tf 42 -26 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 2 of 31) Tj ET
+BT
+/F1 10 Tf
+48 790 Td
+13 TL
+(Explanation: The spoken word is Door.) Tj
+T*
+() Tj
+T*
+(QUESTION 6) Tj
+T*
+(Anchor) Tj
+T*
+(A. Anchor) Tj
+T*
+(B. Radio) Tj
+T*
+(C. Lifejacket) Tj
+T*
+(D. Door) Tj
+T*
+(Correct answer: Anchor) Tj
+T*
+(Explanation: The spoken word is Anchor.) Tj
+T*
+() Tj
+T*
+(QUESTION 7) Tj
+T*
+(Rope) Tj
+T*
+(A. Rope) Tj
+T*
+(B. Wrench) Tj
+T*
+(C. Compass) Tj
+T*
+(D. Lifeboat) Tj
+T*
+(Correct answer: Rope) Tj
+T*
+(Explanation: The spoken word is Rope.) Tj
+T*
+() Tj
+T*
+(QUESTION 8) Tj
+T*
+(Bearing compass) Tj
+T*
+(A. Bearing compass) Tj
+T*
+(B. Ladder) Tj
+T*
+(C. Ship) Tj
+T*
+(D. Fuel tank) Tj
+T*
+(Correct answer: Bearing compass) Tj
+T*
+(Explanation: The spoken term is Bearing compass. Select the picture with the same maritime) Tj
+T*
+(item.) Tj
+T*
+() Tj
+T*
+(QUESTION 9) Tj
+T*
+(Compass) Tj
+T*
+(A. Compass) Tj
+T*
+(B. Boat hook) Tj
+T*
+(C. Lifeboat) Tj
+T*
+(D. Anchor) Tj
+T*
+(Correct answer: Compass) Tj
+T*
+(Explanation: The spoken term is Compass. Select the picture with the same maritime item.) Tj
+T*
+() Tj
+T*
+(QUESTION 10) Tj
+T*
+(Toolbox) Tj
+T*
+(A. Toolbox) Tj
+T*
+(B. Rope) Tj
+T*
+(C. Rescue buoy) Tj
+T*
+(D. Radar) Tj
+T*
+(Correct answer: Toolbox) Tj
+T*
+(Explanation: The spoken term is Toolbox. Select the picture with the same maritime item.) Tj
+T*
+() Tj
+ET
 endstream
 endobj
 7 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
 endobj
 8 0 obj
-<< /Length 3482 >>
+<< /Length 1339 >>
 stream
-BT /F1 9 Tf 42 800 Td (QUESTION 10 | MARLIN TEST 1 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken word and choose the matching picture.) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 716 Td (- Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 702 Td (- Safety helmet) Tj ET
-BT /F1 9 Tf 42 688 Td (- Bucket) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: Listen to the word and identify its picture.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 11 | MARLIN TEST 2 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 2, audio drill 1\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Bearing compass) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Bearing compass) Tj ET
-BT /F1 9 Tf 42 548 Td (- Ladder) Tj ET
-BT /F1 9 Tf 42 534 Td (- Ship) Tj ET
-BT /F1 9 Tf 42 520 Td (- Fuel tank) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Bearing compass) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Bearing compass. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 478 Td (item.) Tj ET
-BT /F1 9 Tf 42 464 Td () Tj ET
-BT /F1 9 Tf 42 450 Td (QUESTION 12 | MARLIN TEST 2 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 436 Td (Listen to the spoken maritime term and select the matching item \(Test 2, audio drill 4\).) Tj ET
-BT /F1 9 Tf 42 422 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 408 Td (Toolbox) Tj ET
-BT /F1 9 Tf 42 394 Td (Options:) Tj ET
-BT /F1 9 Tf 42 380 Td (- Toolbox) Tj ET
-BT /F1 9 Tf 42 366 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 352 Td (- Rescue buoy) Tj ET
-BT /F1 9 Tf 42 338 Td (- Radar) Tj ET
-BT /F1 9 Tf 42 324 Td (CORRECT ANSWER: Toolbox) Tj ET
-BT /F1 9 Tf 42 310 Td (Explanation: The spoken term is Toolbox. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 296 Td () Tj ET
-BT /F1 9 Tf 42 282 Td (QUESTION 13 | MARLIN TEST 2 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 268 Td (Listen to the spoken maritime term and select the matching item \(Test 2, audio drill 8\).) Tj ET
-BT /F1 9 Tf 42 254 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 240 Td (Grapnel) Tj ET
-BT /F1 9 Tf 42 226 Td (Options:) Tj ET
-BT /F1 9 Tf 42 212 Td (- Grapnel) Tj ET
-BT /F1 9 Tf 42 198 Td (- Lifebuoy) Tj ET
-BT /F1 9 Tf 42 184 Td (- Safety helmet) Tj ET
-BT /F1 9 Tf 42 170 Td (- Torch) Tj ET
-BT /F1 9 Tf 42 156 Td (CORRECT ANSWER: Grapnel) Tj ET
-BT /F1 9 Tf 42 142 Td (Explanation: The spoken term is Grapnel. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 128 Td () Tj ET
-BT /F1 9 Tf 42 114 Td (QUESTION 14 | MARLIN TEST 2 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 100 Td (Listen to the spoken maritime term and select the matching item \(Test 2, audio drill 10\).) Tj ET
-BT /F1 9 Tf 42 86 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 72 Td (Bucket) Tj ET
-BT /F1 9 Tf 42 58 Td (Options:) Tj ET
-BT /F1 9 Tf 42 44 Td (- Bucket) Tj ET
-BT /F1 9 Tf 42 30 Td (- Spanner) Tj ET
-BT /F1 9 Tf 42 16 Td (- Cargo) Tj ET
-BT /F1 9 Tf 42 2 Td (- Binoculars) Tj ET
-BT /F1 9 Tf 42 -12 Td (CORRECT ANSWER: Bucket) Tj ET
-BT /F1 9 Tf 42 -26 Td (Explanation: The spoken term is Bucket. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 -40 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 3 of 31) Tj ET
+BT
+/F1 10 Tf
+48 790 Td
+13 TL
+(QUESTION 11) Tj
+T*
+(Mooring line) Tj
+T*
+(A. Mooring line) Tj
+T*
+(B. Bucket) Tj
+T*
+(C. Spanner) Tj
+T*
+(D. Cargo) Tj
+T*
+(Correct answer: Mooring line) Tj
+T*
+(Explanation: The spoken term is Mooring line. Select the picture with the same maritime) Tj
+T*
+(item.) Tj
+T*
+() Tj
+T*
+(QUESTION 12) Tj
+T*
+(Ladder) Tj
+T*
+(A. Ladder) Tj
+T*
+(B. Ship) Tj
+T*
+(C. Fuel tank) Tj
+T*
+(D. Whistle) Tj
+T*
+(Correct answer: Ladder) Tj
+T*
+(Explanation: The spoken term is Ladder. Select the picture with the same maritime item.) Tj
+T*
+() Tj
+T*
+(QUESTION 13) Tj
+T*
+(Boat hook) Tj
+T*
+(A. Boat hook) Tj
+T*
+(B. Lifeboat) Tj
+T*
+(C. Anchor) Tj
+T*
+(D. Radio) Tj
+T*
+(Correct answer: Boat hook) Tj
+T*
+(Explanation: The spoken term is Boat hook. Select the picture with the same maritime item.) Tj
+T*
+() Tj
+T*
+(QUESTION 14) Tj
+T*
+(Grapnel) Tj
+T*
+(A. Grapnel) Tj
+T*
+(B. Lifebuoy) Tj
+T*
+(C. Safety helmet) Tj
+T*
+(D. Torch) Tj
+T*
+(Correct answer: Grapnel) Tj
+T*
+(Explanation: The spoken term is Grapnel. Select the picture with the same maritime item.) Tj
+T*
+() Tj
+T*
+(QUESTION 15) Tj
+T*
+(Bucket) Tj
+T*
+(A. Bucket) Tj
+T*
+(B. Spanner) Tj
+T*
+(C. Cargo) Tj
+T*
+(D. Binoculars) Tj
+T*
+(Correct answer: Bucket) Tj
+T*
+(Explanation: The spoken term is Bucket. Select the picture with the same maritime item.) Tj
+T*
+() Tj
+T*
+(QUESTION 16) Tj
+T*
+(Ship) Tj
+ET
 endstream
 endobj
 9 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
 endobj
 10 0 obj
-<< /Length 3564 >>
+<< /Length 1377 >>
 stream
-BT /F1 9 Tf 42 800 Td (QUESTION 15 | MARLIN TEST 2 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 2, audio drill 6\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Ladder) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Ladder) Tj ET
-BT /F1 9 Tf 42 716 Td (- Ship) Tj ET
-BT /F1 9 Tf 42 702 Td (- Fuel tank) Tj ET
-BT /F1 9 Tf 42 688 Td (- Whistle) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Ladder) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Ladder. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 16 | MARLIN TEST 2 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 2, audio drill 5\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Mooring line) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Mooring line) Tj ET
-BT /F1 9 Tf 42 548 Td (- Bucket) Tj ET
-BT /F1 9 Tf 42 534 Td (- Spanner) Tj ET
-BT /F1 9 Tf 42 520 Td (- Cargo) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Mooring line) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Mooring line. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 478 Td (item.) Tj ET
-BT /F1 9 Tf 42 464 Td () Tj ET
-BT /F1 9 Tf 42 450 Td (QUESTION 17 | MARLIN TEST 2 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 436 Td (Listen to the spoken maritime term and select the matching item \(Test 2, audio drill 9\).) Tj ET
-BT /F1 9 Tf 42 422 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 408 Td (Rope) Tj ET
-BT /F1 9 Tf 42 394 Td (Options:) Tj ET
-BT /F1 9 Tf 42 380 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 366 Td (- Rescue buoy) Tj ET
-BT /F1 9 Tf 42 352 Td (- Radar) Tj ET
-BT /F1 9 Tf 42 338 Td (- Wrench) Tj ET
-BT /F1 9 Tf 42 324 Td (CORRECT ANSWER: Rope) Tj ET
-BT /F1 9 Tf 42 310 Td (Explanation: The spoken term is Rope. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 296 Td () Tj ET
-BT /F1 9 Tf 42 282 Td (QUESTION 18 | MARLIN TEST 2 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 268 Td (Listen to the spoken maritime term and select the matching item \(Test 2, audio drill 7\).) Tj ET
-BT /F1 9 Tf 42 254 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 240 Td (Boat hook) Tj ET
-BT /F1 9 Tf 42 226 Td (Options:) Tj ET
-BT /F1 9 Tf 42 212 Td (- Boat hook) Tj ET
-BT /F1 9 Tf 42 198 Td (- Lifeboat) Tj ET
-BT /F1 9 Tf 42 184 Td (- Anchor) Tj ET
-BT /F1 9 Tf 42 170 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 156 Td (CORRECT ANSWER: Boat hook) Tj ET
-BT /F1 9 Tf 42 142 Td (Explanation: The spoken term is Boat hook. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 128 Td () Tj ET
-BT /F1 9 Tf 42 114 Td (QUESTION 19 | MARLIN TEST 2 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 100 Td (Listen to the spoken maritime term and select the matching item \(Test 2, audio drill 3\).) Tj ET
-BT /F1 9 Tf 42 86 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 72 Td (Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 58 Td (Options:) Tj ET
-BT /F1 9 Tf 42 44 Td (- Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 30 Td (- Grapnel) Tj ET
-BT /F1 9 Tf 42 16 Td (- Lifebuoy) Tj ET
-BT /F1 9 Tf 42 2 Td (- Safety helmet) Tj ET
-BT /F1 9 Tf 42 -12 Td (CORRECT ANSWER: Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 -26 Td (Explanation: The spoken term is Fire extinguisher. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 -40 Td (item.) Tj ET
-BT /F1 9 Tf 42 -54 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 4 of 31) Tj ET
+BT
+/F1 10 Tf
+48 790 Td
+13 TL
+(A. Ship) Tj
+T*
+(B. Fuel tank) Tj
+T*
+(C. Whistle) Tj
+T*
+(D. Sea chart) Tj
+T*
+(Correct answer: Ship) Tj
+T*
+(Explanation: The spoken term is Ship. Select the picture with the same maritime item.) Tj
+T*
+() Tj
+T*
+(QUESTION 17) Tj
+T*
+(Lifeboat) Tj
+T*
+(A. Lifeboat) Tj
+T*
+(B. Anchor) Tj
+T*
+(C. Radio) Tj
+T*
+(D. Safety boots) Tj
+T*
+(Correct answer: Lifeboat) Tj
+T*
+(Explanation: The spoken term is Lifeboat. Select the picture with the same maritime item.) Tj
+T*
+() Tj
+T*
+(QUESTION 18) Tj
+T*
+(Lifebuoy) Tj
+T*
+(A. Lifebuoy) Tj
+T*
+(B. Safety helmet) Tj
+T*
+(C. Torch) Tj
+T*
+(D. Lifejacket) Tj
+T*
+(Correct answer: Lifebuoy) Tj
+T*
+(Explanation: The spoken term is Lifebuoy. Select the picture with the same maritime item.) Tj
+T*
+() Tj
+T*
+(QUESTION 19) Tj
+T*
+(Rescue buoy) Tj
+T*
+(A. Rescue buoy) Tj
+T*
+(B. Radar) Tj
+T*
+(C. Wrench) Tj
+T*
+(D. Work gloves) Tj
+T*
+(Correct answer: Rescue buoy) Tj
+T*
+(Explanation: The spoken term is Rescue buoy. Select the picture with the same maritime item.) Tj
+T*
+() Tj
+T*
+(QUESTION 20) Tj
+T*
+(Spanner) Tj
+T*
+(A. Spanner) Tj
+T*
+(B. Cargo) Tj
+T*
+(C. Binoculars) Tj
+T*
+(D. Sample bottle) Tj
+T*
+(Correct answer: Spanner) Tj
+T*
+(Explanation: The spoken term is Spanner. Select the picture with the same maritime item.) Tj
+T*
+() Tj
+T*
+(QUESTION 21) Tj
+T*
+(Fuel tank) Tj
+T*
+(A. Fuel tank) Tj
+T*
+(B. Whistle) Tj
+T*
+(C. Sea chart) Tj
+ET
 endstream
 endobj
 11 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 10 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 10 0 R >>
 endobj
 12 0 obj
-<< /Length 3475 >>
+<< /Length 1392 >>
 stream
-BT /F1 9 Tf 42 800 Td (QUESTION 20 | MARLIN TEST 2 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 2, audio drill 2\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Compass) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Compass) Tj ET
-BT /F1 9 Tf 42 716 Td (- Boat hook) Tj ET
-BT /F1 9 Tf 42 702 Td (- Lifeboat) Tj ET
-BT /F1 9 Tf 42 688 Td (- Anchor) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Compass) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Compass. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 21 | MARLIN TEST 3 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 3, audio drill 2\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Rope) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 548 Td (- Rescue buoy) Tj ET
-BT /F1 9 Tf 42 534 Td (- Radar) Tj ET
-BT /F1 9 Tf 42 520 Td (- Wrench) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Rope) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Rope. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 478 Td () Tj ET
-BT /F1 9 Tf 42 464 Td (QUESTION 22 | MARLIN TEST 3 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 450 Td (Listen to the spoken maritime term and select the matching item \(Test 3, audio drill 6\).) Tj ET
-BT /F1 9 Tf 42 436 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 422 Td (Lifebuoy) Tj ET
-BT /F1 9 Tf 42 408 Td (Options:) Tj ET
-BT /F1 9 Tf 42 394 Td (- Lifebuoy) Tj ET
-BT /F1 9 Tf 42 380 Td (- Safety helmet) Tj ET
-BT /F1 9 Tf 42 366 Td (- Torch) Tj ET
-BT /F1 9 Tf 42 352 Td (- Lifejacket) Tj ET
-BT /F1 9 Tf 42 338 Td (CORRECT ANSWER: Lifebuoy) Tj ET
-BT /F1 9 Tf 42 324 Td (Explanation: The spoken term is Lifebuoy. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 310 Td () Tj ET
-BT /F1 9 Tf 42 296 Td (QUESTION 23 | MARLIN TEST 3 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 282 Td (Listen to the spoken maritime term and select the matching item \(Test 3, audio drill 7\).) Tj ET
-BT /F1 9 Tf 42 268 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 254 Td (Rescue buoy) Tj ET
-BT /F1 9 Tf 42 240 Td (Options:) Tj ET
-BT /F1 9 Tf 42 226 Td (- Rescue buoy) Tj ET
-BT /F1 9 Tf 42 212 Td (- Radar) Tj ET
-BT /F1 9 Tf 42 198 Td (- Wrench) Tj ET
-BT /F1 9 Tf 42 184 Td (- Work gloves) Tj ET
-BT /F1 9 Tf 42 170 Td (CORRECT ANSWER: Rescue buoy) Tj ET
-BT /F1 9 Tf 42 156 Td (Explanation: The spoken term is Rescue buoy. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 142 Td () Tj ET
-BT /F1 9 Tf 42 128 Td (QUESTION 24 | MARLIN TEST 3 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 114 Td (Listen to the spoken maritime term and select the matching item \(Test 3, audio drill 5\).) Tj ET
-BT /F1 9 Tf 42 100 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 86 Td (Lifeboat) Tj ET
-BT /F1 9 Tf 42 72 Td (Options:) Tj ET
-BT /F1 9 Tf 42 58 Td (- Lifeboat) Tj ET
-BT /F1 9 Tf 42 44 Td (- Anchor) Tj ET
-BT /F1 9 Tf 42 30 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 16 Td (- Safety boots) Tj ET
-BT /F1 9 Tf 42 2 Td (CORRECT ANSWER: Lifeboat) Tj ET
-BT /F1 9 Tf 42 -12 Td (Explanation: The spoken term is Lifeboat. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 -26 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 5 of 31) Tj ET
+BT
+/F1 10 Tf
+48 790 Td
+13 TL
+(D. Bearing compass) Tj
+T*
+(Correct answer: Fuel tank) Tj
+T*
+(Explanation: The spoken term is Fuel tank. Select the picture with the same maritime item.) Tj
+T*
+() Tj
+T*
+(QUESTION 22) Tj
+T*
+(Safety helmet) Tj
+T*
+(A. Safety helmet) Tj
+T*
+(B. Torch) Tj
+T*
+(C. Lifejacket) Tj
+T*
+(D. Fire extinguisher) Tj
+T*
+(Correct answer: Safety helmet) Tj
+T*
+(Explanation: The spoken term is Safety helmet. Select the picture with the same maritime) Tj
+T*
+(item.) Tj
+T*
+() Tj
+T*
+(QUESTION 23) Tj
+T*
+(Radar) Tj
+T*
+(A. Radar) Tj
+T*
+(B. Wrench) Tj
+T*
+(C. Work gloves) Tj
+T*
+(D. Toolbox) Tj
+T*
+(Correct answer: Radar) Tj
+T*
+(Explanation: The spoken term is Radar. Select the picture with the same maritime item.) Tj
+T*
+() Tj
+T*
+(QUESTION 24) Tj
+T*
+(Cargo) Tj
+T*
+(A. Cargo) Tj
+T*
+(B. Binoculars) Tj
+T*
+(C. Sample bottle) Tj
+T*
+(D. Mooring line) Tj
+T*
+(Correct answer: Cargo) Tj
+T*
+(Explanation: The spoken term is Cargo. Select the picture with the same maritime item.) Tj
+T*
+() Tj
+T*
+(QUESTION 25) Tj
+T*
+(Whistle) Tj
+T*
+(A. Whistle) Tj
+T*
+(B. Sea chart) Tj
+T*
+(C. Bearing compass) Tj
+T*
+(D. Ladder) Tj
+T*
+(Correct answer: Whistle) Tj
+T*
+(Explanation: The spoken term is Whistle. Select the picture with the same maritime item.) Tj
+T*
+() Tj
+T*
+(QUESTION 26) Tj
+T*
+(Wrench) Tj
+T*
+(A. Wrench) Tj
+T*
+(B. Work gloves) Tj
+T*
+(C. Toolbox) Tj
+T*
+(D. Rope) Tj
+T*
+(Correct answer: Wrench) Tj
+ET
 endstream
 endobj
 13 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 12 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 12 0 R >>
 endobj
 14 0 obj
-<< /Length 3472 >>
+<< /Length 1492 >>
 stream
-BT /F1 9 Tf 42 800 Td (QUESTION 25 | MARLIN TEST 3 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 3, audio drill 8\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Spanner) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Spanner) Tj ET
-BT /F1 9 Tf 42 716 Td (- Cargo) Tj ET
-BT /F1 9 Tf 42 702 Td (- Binoculars) Tj ET
-BT /F1 9 Tf 42 688 Td (- Sample bottle) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Spanner) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Spanner. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 26 | MARLIN TEST 3 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 3, audio drill 4\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Ship) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Ship) Tj ET
-BT /F1 9 Tf 42 548 Td (- Fuel tank) Tj ET
-BT /F1 9 Tf 42 534 Td (- Whistle) Tj ET
-BT /F1 9 Tf 42 520 Td (- Sea chart) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Ship) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Ship. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 478 Td () Tj ET
-BT /F1 9 Tf 42 464 Td (QUESTION 27 | MARLIN TEST 3 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 450 Td (Listen to the spoken maritime term and select the matching item \(Test 3, audio drill 1\).) Tj ET
-BT /F1 9 Tf 42 436 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 422 Td (Grapnel) Tj ET
-BT /F1 9 Tf 42 408 Td (Options:) Tj ET
-BT /F1 9 Tf 42 394 Td (- Grapnel) Tj ET
-BT /F1 9 Tf 42 380 Td (- Lifebuoy) Tj ET
-BT /F1 9 Tf 42 366 Td (- Safety helmet) Tj ET
-BT /F1 9 Tf 42 352 Td (- Torch) Tj ET
-BT /F1 9 Tf 42 338 Td (CORRECT ANSWER: Grapnel) Tj ET
-BT /F1 9 Tf 42 324 Td (Explanation: The spoken term is Grapnel. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 310 Td () Tj ET
-BT /F1 9 Tf 42 296 Td (QUESTION 28 | MARLIN TEST 3 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 282 Td (Listen to the spoken maritime term and select the matching item \(Test 3, audio drill 10\).) Tj ET
-BT /F1 9 Tf 42 268 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 254 Td (Anchor) Tj ET
-BT /F1 9 Tf 42 240 Td (Options:) Tj ET
-BT /F1 9 Tf 42 226 Td (- Anchor) Tj ET
-BT /F1 9 Tf 42 212 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 198 Td (- Safety boots) Tj ET
-BT /F1 9 Tf 42 184 Td (- Compass) Tj ET
-BT /F1 9 Tf 42 170 Td (CORRECT ANSWER: Anchor) Tj ET
-BT /F1 9 Tf 42 156 Td (Explanation: The spoken term is Anchor. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 142 Td () Tj ET
-BT /F1 9 Tf 42 128 Td (QUESTION 29 | MARLIN TEST 3 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 114 Td (Listen to the spoken maritime term and select the matching item \(Test 3, audio drill 9\).) Tj ET
-BT /F1 9 Tf 42 100 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 86 Td (Fuel tank) Tj ET
-BT /F1 9 Tf 42 72 Td (Options:) Tj ET
-BT /F1 9 Tf 42 58 Td (- Fuel tank) Tj ET
-BT /F1 9 Tf 42 44 Td (- Whistle) Tj ET
-BT /F1 9 Tf 42 30 Td (- Sea chart) Tj ET
-BT /F1 9 Tf 42 16 Td (- Bearing compass) Tj ET
-BT /F1 9 Tf 42 2 Td (CORRECT ANSWER: Fuel tank) Tj ET
-BT /F1 9 Tf 42 -12 Td (Explanation: The spoken term is Fuel tank. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 -26 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 6 of 31) Tj ET
+BT
+/F1 10 Tf
+48 790 Td
+13 TL
+(Explanation: The spoken term is Wrench. Select the picture with the same maritime item.) Tj
+T*
+() Tj
+T*
+(QUESTION 27) Tj
+T*
+(Binoculars) Tj
+T*
+(A. Binoculars) Tj
+T*
+(B. Sample bottle) Tj
+T*
+(C. Mooring line) Tj
+T*
+(D. Bucket) Tj
+T*
+(Correct answer: Binoculars) Tj
+T*
+(Explanation: The spoken term is Binoculars. Select the picture with the same maritime item.) Tj
+T*
+() Tj
+T*
+(QUESTION 28) Tj
+T*
+(Sea chart) Tj
+T*
+(A. Sea chart) Tj
+T*
+(B. Bearing compass) Tj
+T*
+(C. Ladder) Tj
+T*
+(D. Ship) Tj
+T*
+(Correct answer: Sea chart) Tj
+T*
+(Explanation: The spoken term is Sea chart. Select the picture with the same maritime item.) Tj
+T*
+() Tj
+T*
+(QUESTION 29) Tj
+T*
+(Safety boots) Tj
+T*
+(A. Safety boots) Tj
+T*
+(B. Compass) Tj
+T*
+(C. Boat hook) Tj
+T*
+(D. Lifeboat) Tj
+T*
+(Correct answer: Safety boots) Tj
+T*
+(Explanation: The spoken term is Safety boots. Select the picture with the same maritime) Tj
+T*
+(item.) Tj
+T*
+() Tj
+T*
+(QUESTION 30) Tj
+T*
+(Work gloves) Tj
+T*
+(A. Work gloves) Tj
+T*
+(B. Toolbox) Tj
+T*
+(C. Rope) Tj
+T*
+(D. Rescue buoy) Tj
+T*
+(Correct answer: Work gloves) Tj
+T*
+(Explanation: The spoken term is Work gloves. Select the picture with the same maritime item.) Tj
+T*
+() Tj
+T*
+(QUESTION 31) Tj
+T*
+(Sample bottle) Tj
+T*
+(A. Sample bottle) Tj
+T*
+(B. Mooring line) Tj
+T*
+(C. Bucket) Tj
+T*
+(D. Spanner) Tj
+T*
+(Correct answer: Sample bottle) Tj
+T*
+(Explanation: The spoken term is Sample bottle. Select the picture with the same maritime) Tj
+T*
+(item.) Tj
+ET
 endstream
 endobj
 15 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 14 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 14 0 R >>
 endobj
 16 0 obj
-<< /Length 3528 >>
+<< /Length 37 >>
 stream
-BT /F1 9 Tf 42 800 Td (QUESTION 30 | MARLIN TEST 3 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 3, audio drill 3\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Bucket) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Bucket) Tj ET
-BT /F1 9 Tf 42 716 Td (- Spanner) Tj ET
-BT /F1 9 Tf 42 702 Td (- Cargo) Tj ET
-BT /F1 9 Tf 42 688 Td (- Binoculars) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Bucket) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Bucket. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 31 | MARLIN TEST 4 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 4, audio drill 4\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Safety helmet) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Safety helmet) Tj ET
-BT /F1 9 Tf 42 548 Td (- Torch) Tj ET
-BT /F1 9 Tf 42 534 Td (- Lifejacket) Tj ET
-BT /F1 9 Tf 42 520 Td (- Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Safety helmet) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Safety helmet. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 478 Td (item.) Tj ET
-BT /F1 9 Tf 42 464 Td () Tj ET
-BT /F1 9 Tf 42 450 Td (QUESTION 32 | MARLIN TEST 4 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 436 Td (Listen to the spoken maritime term and select the matching item \(Test 4, audio drill 8\).) Tj ET
-BT /F1 9 Tf 42 422 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 408 Td (Radio) Tj ET
-BT /F1 9 Tf 42 394 Td (Options:) Tj ET
-BT /F1 9 Tf 42 380 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 366 Td (- Safety boots) Tj ET
-BT /F1 9 Tf 42 352 Td (- Compass) Tj ET
-BT /F1 9 Tf 42 338 Td (- Boat hook) Tj ET
-BT /F1 9 Tf 42 324 Td (CORRECT ANSWER: Radio) Tj ET
-BT /F1 9 Tf 42 310 Td (Explanation: The spoken term is Radio. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 296 Td () Tj ET
-BT /F1 9 Tf 42 282 Td (QUESTION 33 | MARLIN TEST 4 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 268 Td (Listen to the spoken maritime term and select the matching item \(Test 4, audio drill 2\).) Tj ET
-BT /F1 9 Tf 42 254 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 240 Td (Fuel tank) Tj ET
-BT /F1 9 Tf 42 226 Td (Options:) Tj ET
-BT /F1 9 Tf 42 212 Td (- Fuel tank) Tj ET
-BT /F1 9 Tf 42 198 Td (- Whistle) Tj ET
-BT /F1 9 Tf 42 184 Td (- Sea chart) Tj ET
-BT /F1 9 Tf 42 170 Td (- Bearing compass) Tj ET
-BT /F1 9 Tf 42 156 Td (CORRECT ANSWER: Fuel tank) Tj ET
-BT /F1 9 Tf 42 142 Td (Explanation: The spoken term is Fuel tank. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 128 Td () Tj ET
-BT /F1 9 Tf 42 114 Td (QUESTION 34 | MARLIN TEST 4 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 100 Td (Listen to the spoken maritime term and select the matching item \(Test 4, audio drill 3\).) Tj ET
-BT /F1 9 Tf 42 86 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 72 Td (Anchor) Tj ET
-BT /F1 9 Tf 42 58 Td (Options:) Tj ET
-BT /F1 9 Tf 42 44 Td (- Anchor) Tj ET
-BT /F1 9 Tf 42 30 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 16 Td (- Safety boots) Tj ET
-BT /F1 9 Tf 42 2 Td (- Compass) Tj ET
-BT /F1 9 Tf 42 -12 Td (CORRECT ANSWER: Anchor) Tj ET
-BT /F1 9 Tf 42 -26 Td (Explanation: The spoken term is Anchor. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 -40 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 7 of 31) Tj ET
+BT
+/F1 10 Tf
+48 790 Td
+13 TL
+() Tj
+ET
 endstream
 endobj
 17 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 16 0 R >>
-endobj
-18 0 obj
-<< /Length 3465 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 35 | MARLIN TEST 4 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 4, audio drill 1\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Spanner) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Spanner) Tj ET
-BT /F1 9 Tf 42 716 Td (- Cargo) Tj ET
-BT /F1 9 Tf 42 702 Td (- Binoculars) Tj ET
-BT /F1 9 Tf 42 688 Td (- Sample bottle) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Spanner) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Spanner. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 36 | MARLIN TEST 4 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 4, audio drill 10\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Wrench) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Wrench) Tj ET
-BT /F1 9 Tf 42 548 Td (- Work gloves) Tj ET
-BT /F1 9 Tf 42 534 Td (- Toolbox) Tj ET
-BT /F1 9 Tf 42 520 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Wrench) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Wrench. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 478 Td () Tj ET
-BT /F1 9 Tf 42 464 Td (QUESTION 37 | MARLIN TEST 4 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 450 Td (Listen to the spoken maritime term and select the matching item \(Test 4, audio drill 6\).) Tj ET
-BT /F1 9 Tf 42 436 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 422 Td (Cargo) Tj ET
-BT /F1 9 Tf 42 408 Td (Options:) Tj ET
-BT /F1 9 Tf 42 394 Td (- Cargo) Tj ET
-BT /F1 9 Tf 42 380 Td (- Binoculars) Tj ET
-BT /F1 9 Tf 42 366 Td (- Sample bottle) Tj ET
-BT /F1 9 Tf 42 352 Td (- Mooring line) Tj ET
-BT /F1 9 Tf 42 338 Td (CORRECT ANSWER: Cargo) Tj ET
-BT /F1 9 Tf 42 324 Td (Explanation: The spoken term is Cargo. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 310 Td () Tj ET
-BT /F1 9 Tf 42 296 Td (QUESTION 38 | MARLIN TEST 4 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 282 Td (Listen to the spoken maritime term and select the matching item \(Test 4, audio drill 7\).) Tj ET
-BT /F1 9 Tf 42 268 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 254 Td (Whistle) Tj ET
-BT /F1 9 Tf 42 240 Td (Options:) Tj ET
-BT /F1 9 Tf 42 226 Td (- Whistle) Tj ET
-BT /F1 9 Tf 42 212 Td (- Sea chart) Tj ET
-BT /F1 9 Tf 42 198 Td (- Bearing compass) Tj ET
-BT /F1 9 Tf 42 184 Td (- Ladder) Tj ET
-BT /F1 9 Tf 42 170 Td (CORRECT ANSWER: Whistle) Tj ET
-BT /F1 9 Tf 42 156 Td (Explanation: The spoken term is Whistle. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 142 Td () Tj ET
-BT /F1 9 Tf 42 128 Td (QUESTION 39 | MARLIN TEST 4 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 114 Td (Listen to the spoken maritime term and select the matching item \(Test 4, audio drill 5\).) Tj ET
-BT /F1 9 Tf 42 100 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 86 Td (Radar) Tj ET
-BT /F1 9 Tf 42 72 Td (Options:) Tj ET
-BT /F1 9 Tf 42 58 Td (- Radar) Tj ET
-BT /F1 9 Tf 42 44 Td (- Wrench) Tj ET
-BT /F1 9 Tf 42 30 Td (- Work gloves) Tj ET
-BT /F1 9 Tf 42 16 Td (- Toolbox) Tj ET
-BT /F1 9 Tf 42 2 Td (CORRECT ANSWER: Radar) Tj ET
-BT /F1 9 Tf 42 -12 Td (Explanation: The spoken term is Radar. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 -26 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 8 of 31) Tj ET
-endstream
-endobj
-19 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 18 0 R >>
-endobj
-20 0 obj
-<< /Length 3593 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 40 | MARLIN TEST 4 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 4, audio drill 9\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Torch) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Torch) Tj ET
-BT /F1 9 Tf 42 716 Td (- Lifejacket) Tj ET
-BT /F1 9 Tf 42 702 Td (- Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 688 Td (- Grapnel) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Torch) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Torch. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 41 | MARLIN TEST 5 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 5, audio drill 2\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Torch) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Torch) Tj ET
-BT /F1 9 Tf 42 548 Td (- Lifejacket) Tj ET
-BT /F1 9 Tf 42 534 Td (- Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 520 Td (- Grapnel) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Torch) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Torch. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 478 Td () Tj ET
-BT /F1 9 Tf 42 464 Td (QUESTION 42 | MARLIN TEST 5 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 450 Td (Listen to the spoken maritime term and select the matching item \(Test 5, audio drill 6\).) Tj ET
-BT /F1 9 Tf 42 436 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 422 Td (Safety boots) Tj ET
-BT /F1 9 Tf 42 408 Td (Options:) Tj ET
-BT /F1 9 Tf 42 394 Td (- Safety boots) Tj ET
-BT /F1 9 Tf 42 380 Td (- Compass) Tj ET
-BT /F1 9 Tf 42 366 Td (- Boat hook) Tj ET
-BT /F1 9 Tf 42 352 Td (- Lifeboat) Tj ET
-BT /F1 9 Tf 42 338 Td (CORRECT ANSWER: Safety boots) Tj ET
-BT /F1 9 Tf 42 324 Td (Explanation: The spoken term is Safety boots. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 310 Td (item.) Tj ET
-BT /F1 9 Tf 42 296 Td () Tj ET
-BT /F1 9 Tf 42 282 Td (QUESTION 43 | MARLIN TEST 5 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 268 Td (Listen to the spoken maritime term and select the matching item \(Test 5, audio drill 9\).) Tj ET
-BT /F1 9 Tf 42 254 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 240 Td (Sample bottle) Tj ET
-BT /F1 9 Tf 42 226 Td (Options:) Tj ET
-BT /F1 9 Tf 42 212 Td (- Sample bottle) Tj ET
-BT /F1 9 Tf 42 198 Td (- Mooring line) Tj ET
-BT /F1 9 Tf 42 184 Td (- Bucket) Tj ET
-BT /F1 9 Tf 42 170 Td (- Spanner) Tj ET
-BT /F1 9 Tf 42 156 Td (CORRECT ANSWER: Sample bottle) Tj ET
-BT /F1 9 Tf 42 142 Td (Explanation: The spoken term is Sample bottle. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 128 Td (item.) Tj ET
-BT /F1 9 Tf 42 114 Td () Tj ET
-BT /F1 9 Tf 42 100 Td (QUESTION 44 | MARLIN TEST 5 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 86 Td (Listen to the spoken maritime term and select the matching item \(Test 5, audio drill 4\).) Tj ET
-BT /F1 9 Tf 42 72 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 58 Td (Binoculars) Tj ET
-BT /F1 9 Tf 42 44 Td (Options:) Tj ET
-BT /F1 9 Tf 42 30 Td (- Binoculars) Tj ET
-BT /F1 9 Tf 42 16 Td (- Sample bottle) Tj ET
-BT /F1 9 Tf 42 2 Td (- Mooring line) Tj ET
-BT /F1 9 Tf 42 -12 Td (- Bucket) Tj ET
-BT /F1 9 Tf 42 -26 Td (CORRECT ANSWER: Binoculars) Tj ET
-BT /F1 9 Tf 42 -40 Td (Explanation: The spoken term is Binoculars. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 -54 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 9 of 31) Tj ET
-endstream
-endobj
-21 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 20 0 R >>
-endobj
-22 0 obj
-<< /Length 3537 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 45 | MARLIN TEST 5 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 5, audio drill 10\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Bearing compass) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Bearing compass) Tj ET
-BT /F1 9 Tf 42 716 Td (- Ladder) Tj ET
-BT /F1 9 Tf 42 702 Td (- Ship) Tj ET
-BT /F1 9 Tf 42 688 Td (- Fuel tank) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Bearing compass) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Bearing compass. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 646 Td (item.) Tj ET
-BT /F1 9 Tf 42 632 Td () Tj ET
-BT /F1 9 Tf 42 618 Td (QUESTION 46 | MARLIN TEST 5 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 604 Td (Listen to the spoken maritime term and select the matching item \(Test 5, audio drill 5\).) Tj ET
-BT /F1 9 Tf 42 590 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 576 Td (Sea chart) Tj ET
-BT /F1 9 Tf 42 562 Td (Options:) Tj ET
-BT /F1 9 Tf 42 548 Td (- Sea chart) Tj ET
-BT /F1 9 Tf 42 534 Td (- Bearing compass) Tj ET
-BT /F1 9 Tf 42 520 Td (- Ladder) Tj ET
-BT /F1 9 Tf 42 506 Td (- Ship) Tj ET
-BT /F1 9 Tf 42 492 Td (CORRECT ANSWER: Sea chart) Tj ET
-BT /F1 9 Tf 42 478 Td (Explanation: The spoken term is Sea chart. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 464 Td () Tj ET
-BT /F1 9 Tf 42 450 Td (QUESTION 47 | MARLIN TEST 5 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 436 Td (Listen to the spoken maritime term and select the matching item \(Test 5, audio drill 8\).) Tj ET
-BT /F1 9 Tf 42 422 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 408 Td (Work gloves) Tj ET
-BT /F1 9 Tf 42 394 Td (Options:) Tj ET
-BT /F1 9 Tf 42 380 Td (- Work gloves) Tj ET
-BT /F1 9 Tf 42 366 Td (- Toolbox) Tj ET
-BT /F1 9 Tf 42 352 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 338 Td (- Rescue buoy) Tj ET
-BT /F1 9 Tf 42 324 Td (CORRECT ANSWER: Work gloves) Tj ET
-BT /F1 9 Tf 42 310 Td (Explanation: The spoken term is Work gloves. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 296 Td () Tj ET
-BT /F1 9 Tf 42 282 Td (QUESTION 48 | MARLIN TEST 5 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 268 Td (Listen to the spoken maritime term and select the matching item \(Test 5, audio drill 1\).) Tj ET
-BT /F1 9 Tf 42 254 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 240 Td (Radio) Tj ET
-BT /F1 9 Tf 42 226 Td (Options:) Tj ET
-BT /F1 9 Tf 42 212 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 198 Td (- Safety boots) Tj ET
-BT /F1 9 Tf 42 184 Td (- Compass) Tj ET
-BT /F1 9 Tf 42 170 Td (- Boat hook) Tj ET
-BT /F1 9 Tf 42 156 Td (CORRECT ANSWER: Radio) Tj ET
-BT /F1 9 Tf 42 142 Td (Explanation: The spoken term is Radio. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 128 Td () Tj ET
-BT /F1 9 Tf 42 114 Td (QUESTION 49 | MARLIN TEST 5 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 100 Td (Listen to the spoken maritime term and select the matching item \(Test 5, audio drill 3\).) Tj ET
-BT /F1 9 Tf 42 86 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 72 Td (Wrench) Tj ET
-BT /F1 9 Tf 42 58 Td (Options:) Tj ET
-BT /F1 9 Tf 42 44 Td (- Wrench) Tj ET
-BT /F1 9 Tf 42 30 Td (- Work gloves) Tj ET
-BT /F1 9 Tf 42 16 Td (- Toolbox) Tj ET
-BT /F1 9 Tf 42 2 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 -12 Td (CORRECT ANSWER: Wrench) Tj ET
-BT /F1 9 Tf 42 -26 Td (Explanation: The spoken term is Wrench. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 -40 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 10 of 31) Tj ET
-endstream
-endobj
-23 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 22 0 R >>
-endobj
-24 0 obj
-<< /Length 3573 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 50 | MARLIN TEST 5 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 5, audio drill 7\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Lifejacket) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Lifejacket) Tj ET
-BT /F1 9 Tf 42 716 Td (- Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 702 Td (- Grapnel) Tj ET
-BT /F1 9 Tf 42 688 Td (- Lifebuoy) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Lifejacket) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Lifejacket. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 51 | MARLIN TEST 6 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 6, audio drill 6\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Toolbox) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Toolbox) Tj ET
-BT /F1 9 Tf 42 548 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 534 Td (- Rescue buoy) Tj ET
-BT /F1 9 Tf 42 520 Td (- Radar) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Toolbox) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Toolbox. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 478 Td () Tj ET
-BT /F1 9 Tf 42 464 Td (QUESTION 52 | MARLIN TEST 6 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 450 Td (Listen to the spoken maritime term and select the matching item \(Test 6, audio drill 1\).) Tj ET
-BT /F1 9 Tf 42 436 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 422 Td (Work gloves) Tj ET
-BT /F1 9 Tf 42 408 Td (Options:) Tj ET
-BT /F1 9 Tf 42 394 Td (- Work gloves) Tj ET
-BT /F1 9 Tf 42 380 Td (- Toolbox) Tj ET
-BT /F1 9 Tf 42 366 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 352 Td (- Rescue buoy) Tj ET
-BT /F1 9 Tf 42 338 Td (CORRECT ANSWER: Work gloves) Tj ET
-BT /F1 9 Tf 42 324 Td (Explanation: The spoken term is Work gloves. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 310 Td () Tj ET
-BT /F1 9 Tf 42 296 Td (QUESTION 53 | MARLIN TEST 6 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 282 Td (Listen to the spoken maritime term and select the matching item \(Test 6, audio drill 10\).) Tj ET
-BT /F1 9 Tf 42 268 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 254 Td (Grapnel) Tj ET
-BT /F1 9 Tf 42 240 Td (Options:) Tj ET
-BT /F1 9 Tf 42 226 Td (- Grapnel) Tj ET
-BT /F1 9 Tf 42 212 Td (- Lifebuoy) Tj ET
-BT /F1 9 Tf 42 198 Td (- Safety helmet) Tj ET
-BT /F1 9 Tf 42 184 Td (- Torch) Tj ET
-BT /F1 9 Tf 42 170 Td (CORRECT ANSWER: Grapnel) Tj ET
-BT /F1 9 Tf 42 156 Td (Explanation: The spoken term is Grapnel. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 142 Td () Tj ET
-BT /F1 9 Tf 42 128 Td (QUESTION 54 | MARLIN TEST 6 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 114 Td (Listen to the spoken maritime term and select the matching item \(Test 6, audio drill 5\).) Tj ET
-BT /F1 9 Tf 42 100 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 86 Td (Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 72 Td (Options:) Tj ET
-BT /F1 9 Tf 42 58 Td (- Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 44 Td (- Grapnel) Tj ET
-BT /F1 9 Tf 42 30 Td (- Lifebuoy) Tj ET
-BT /F1 9 Tf 42 16 Td (- Safety helmet) Tj ET
-BT /F1 9 Tf 42 2 Td (CORRECT ANSWER: Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 -12 Td (Explanation: The spoken term is Fire extinguisher. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 -26 Td (item.) Tj ET
-BT /F1 9 Tf 42 -40 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 11 of 31) Tj ET
-endstream
-endobj
-25 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 24 0 R >>
-endobj
-26 0 obj
-<< /Length 3572 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 55 | MARLIN TEST 6 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 6, audio drill 4\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Compass) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Compass) Tj ET
-BT /F1 9 Tf 42 716 Td (- Boat hook) Tj ET
-BT /F1 9 Tf 42 702 Td (- Lifeboat) Tj ET
-BT /F1 9 Tf 42 688 Td (- Anchor) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Compass) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Compass. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 56 | MARLIN TEST 6 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 6, audio drill 2\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Sample bottle) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Sample bottle) Tj ET
-BT /F1 9 Tf 42 548 Td (- Mooring line) Tj ET
-BT /F1 9 Tf 42 534 Td (- Bucket) Tj ET
-BT /F1 9 Tf 42 520 Td (- Spanner) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Sample bottle) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Sample bottle. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 478 Td (item.) Tj ET
-BT /F1 9 Tf 42 464 Td () Tj ET
-BT /F1 9 Tf 42 450 Td (QUESTION 57 | MARLIN TEST 6 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 436 Td (Listen to the spoken maritime term and select the matching item \(Test 6, audio drill 3\).) Tj ET
-BT /F1 9 Tf 42 422 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 408 Td (Bearing compass) Tj ET
-BT /F1 9 Tf 42 394 Td (Options:) Tj ET
-BT /F1 9 Tf 42 380 Td (- Bearing compass) Tj ET
-BT /F1 9 Tf 42 366 Td (- Ladder) Tj ET
-BT /F1 9 Tf 42 352 Td (- Ship) Tj ET
-BT /F1 9 Tf 42 338 Td (- Fuel tank) Tj ET
-BT /F1 9 Tf 42 324 Td (CORRECT ANSWER: Bearing compass) Tj ET
-BT /F1 9 Tf 42 310 Td (Explanation: The spoken term is Bearing compass. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 296 Td (item.) Tj ET
-BT /F1 9 Tf 42 282 Td () Tj ET
-BT /F1 9 Tf 42 268 Td (QUESTION 58 | MARLIN TEST 6 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 254 Td (Listen to the spoken maritime term and select the matching item \(Test 6, audio drill 9\).) Tj ET
-BT /F1 9 Tf 42 240 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 226 Td (Boat hook) Tj ET
-BT /F1 9 Tf 42 212 Td (Options:) Tj ET
-BT /F1 9 Tf 42 198 Td (- Boat hook) Tj ET
-BT /F1 9 Tf 42 184 Td (- Lifeboat) Tj ET
-BT /F1 9 Tf 42 170 Td (- Anchor) Tj ET
-BT /F1 9 Tf 42 156 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 142 Td (CORRECT ANSWER: Boat hook) Tj ET
-BT /F1 9 Tf 42 128 Td (Explanation: The spoken term is Boat hook. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 114 Td () Tj ET
-BT /F1 9 Tf 42 100 Td (QUESTION 59 | MARLIN TEST 6 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 86 Td (Listen to the spoken maritime term and select the matching item \(Test 6, audio drill 8\).) Tj ET
-BT /F1 9 Tf 42 72 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 58 Td (Ladder) Tj ET
-BT /F1 9 Tf 42 44 Td (Options:) Tj ET
-BT /F1 9 Tf 42 30 Td (- Ladder) Tj ET
-BT /F1 9 Tf 42 16 Td (- Ship) Tj ET
-BT /F1 9 Tf 42 2 Td (- Fuel tank) Tj ET
-BT /F1 9 Tf 42 -12 Td (- Whistle) Tj ET
-BT /F1 9 Tf 42 -26 Td (CORRECT ANSWER: Ladder) Tj ET
-BT /F1 9 Tf 42 -40 Td (Explanation: The spoken term is Ladder. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 -54 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 12 of 31) Tj ET
-endstream
-endobj
-27 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 26 0 R >>
-endobj
-28 0 obj
-<< /Length 3521 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 60 | MARLIN TEST 6 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 6, audio drill 7\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Mooring line) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Mooring line) Tj ET
-BT /F1 9 Tf 42 716 Td (- Bucket) Tj ET
-BT /F1 9 Tf 42 702 Td (- Spanner) Tj ET
-BT /F1 9 Tf 42 688 Td (- Cargo) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Mooring line) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Mooring line. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 646 Td (item.) Tj ET
-BT /F1 9 Tf 42 632 Td () Tj ET
-BT /F1 9 Tf 42 618 Td (QUESTION 61 | MARLIN TEST 7 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 604 Td (Listen to the spoken maritime term and select the matching item \(Test 7, audio drill 9\).) Tj ET
-BT /F1 9 Tf 42 590 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 576 Td (Rescue buoy) Tj ET
-BT /F1 9 Tf 42 562 Td (Options:) Tj ET
-BT /F1 9 Tf 42 548 Td (- Rescue buoy) Tj ET
-BT /F1 9 Tf 42 534 Td (- Radar) Tj ET
-BT /F1 9 Tf 42 520 Td (- Wrench) Tj ET
-BT /F1 9 Tf 42 506 Td (- Work gloves) Tj ET
-BT /F1 9 Tf 42 492 Td (CORRECT ANSWER: Rescue buoy) Tj ET
-BT /F1 9 Tf 42 478 Td (Explanation: The spoken term is Rescue buoy. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 464 Td () Tj ET
-BT /F1 9 Tf 42 450 Td (QUESTION 62 | MARLIN TEST 7 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 436 Td (Listen to the spoken maritime term and select the matching item \(Test 7, audio drill 1\).) Tj ET
-BT /F1 9 Tf 42 422 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 408 Td (Ladder) Tj ET
-BT /F1 9 Tf 42 394 Td (Options:) Tj ET
-BT /F1 9 Tf 42 380 Td (- Ladder) Tj ET
-BT /F1 9 Tf 42 366 Td (- Ship) Tj ET
-BT /F1 9 Tf 42 352 Td (- Fuel tank) Tj ET
-BT /F1 9 Tf 42 338 Td (- Whistle) Tj ET
-BT /F1 9 Tf 42 324 Td (CORRECT ANSWER: Ladder) Tj ET
-BT /F1 9 Tf 42 310 Td (Explanation: The spoken term is Ladder. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 296 Td () Tj ET
-BT /F1 9 Tf 42 282 Td (QUESTION 63 | MARLIN TEST 7 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 268 Td (Listen to the spoken maritime term and select the matching item \(Test 7, audio drill 2\).) Tj ET
-BT /F1 9 Tf 42 254 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 240 Td (Boat hook) Tj ET
-BT /F1 9 Tf 42 226 Td (Options:) Tj ET
-BT /F1 9 Tf 42 212 Td (- Boat hook) Tj ET
-BT /F1 9 Tf 42 198 Td (- Lifeboat) Tj ET
-BT /F1 9 Tf 42 184 Td (- Anchor) Tj ET
-BT /F1 9 Tf 42 170 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 156 Td (CORRECT ANSWER: Boat hook) Tj ET
-BT /F1 9 Tf 42 142 Td (Explanation: The spoken term is Boat hook. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 128 Td () Tj ET
-BT /F1 9 Tf 42 114 Td (QUESTION 64 | MARLIN TEST 7 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 100 Td (Listen to the spoken maritime term and select the matching item \(Test 7, audio drill 3\).) Tj ET
-BT /F1 9 Tf 42 86 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 72 Td (Grapnel) Tj ET
-BT /F1 9 Tf 42 58 Td (Options:) Tj ET
-BT /F1 9 Tf 42 44 Td (- Grapnel) Tj ET
-BT /F1 9 Tf 42 30 Td (- Lifebuoy) Tj ET
-BT /F1 9 Tf 42 16 Td (- Safety helmet) Tj ET
-BT /F1 9 Tf 42 2 Td (- Torch) Tj ET
-BT /F1 9 Tf 42 -12 Td (CORRECT ANSWER: Grapnel) Tj ET
-BT /F1 9 Tf 42 -26 Td (Explanation: The spoken term is Grapnel. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 -40 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 13 of 31) Tj ET
-endstream
-endobj
-29 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 28 0 R >>
-endobj
-30 0 obj
-<< /Length 3457 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 65 | MARLIN TEST 7 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 7, audio drill 4\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Rope) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 716 Td (- Rescue buoy) Tj ET
-BT /F1 9 Tf 42 702 Td (- Radar) Tj ET
-BT /F1 9 Tf 42 688 Td (- Wrench) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Rope) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Rope. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 66 | MARLIN TEST 7 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 7, audio drill 6\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Ship) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Ship) Tj ET
-BT /F1 9 Tf 42 548 Td (- Fuel tank) Tj ET
-BT /F1 9 Tf 42 534 Td (- Whistle) Tj ET
-BT /F1 9 Tf 42 520 Td (- Sea chart) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Ship) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Ship. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 478 Td () Tj ET
-BT /F1 9 Tf 42 464 Td (QUESTION 67 | MARLIN TEST 7 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 450 Td (Listen to the spoken maritime term and select the matching item \(Test 7, audio drill 7\).) Tj ET
-BT /F1 9 Tf 42 436 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 422 Td (Lifeboat) Tj ET
-BT /F1 9 Tf 42 408 Td (Options:) Tj ET
-BT /F1 9 Tf 42 394 Td (- Lifeboat) Tj ET
-BT /F1 9 Tf 42 380 Td (- Anchor) Tj ET
-BT /F1 9 Tf 42 366 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 352 Td (- Safety boots) Tj ET
-BT /F1 9 Tf 42 338 Td (CORRECT ANSWER: Lifeboat) Tj ET
-BT /F1 9 Tf 42 324 Td (Explanation: The spoken term is Lifeboat. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 310 Td () Tj ET
-BT /F1 9 Tf 42 296 Td (QUESTION 68 | MARLIN TEST 7 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 282 Td (Listen to the spoken maritime term and select the matching item \(Test 7, audio drill 8\).) Tj ET
-BT /F1 9 Tf 42 268 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 254 Td (Lifebuoy) Tj ET
-BT /F1 9 Tf 42 240 Td (Options:) Tj ET
-BT /F1 9 Tf 42 226 Td (- Lifebuoy) Tj ET
-BT /F1 9 Tf 42 212 Td (- Safety helmet) Tj ET
-BT /F1 9 Tf 42 198 Td (- Torch) Tj ET
-BT /F1 9 Tf 42 184 Td (- Lifejacket) Tj ET
-BT /F1 9 Tf 42 170 Td (CORRECT ANSWER: Lifebuoy) Tj ET
-BT /F1 9 Tf 42 156 Td (Explanation: The spoken term is Lifebuoy. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 142 Td () Tj ET
-BT /F1 9 Tf 42 128 Td (QUESTION 69 | MARLIN TEST 7 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 114 Td (Listen to the spoken maritime term and select the matching item \(Test 7, audio drill 10\).) Tj ET
-BT /F1 9 Tf 42 100 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 86 Td (Spanner) Tj ET
-BT /F1 9 Tf 42 72 Td (Options:) Tj ET
-BT /F1 9 Tf 42 58 Td (- Spanner) Tj ET
-BT /F1 9 Tf 42 44 Td (- Cargo) Tj ET
-BT /F1 9 Tf 42 30 Td (- Binoculars) Tj ET
-BT /F1 9 Tf 42 16 Td (- Sample bottle) Tj ET
-BT /F1 9 Tf 42 2 Td (CORRECT ANSWER: Spanner) Tj ET
-BT /F1 9 Tf 42 -12 Td (Explanation: The spoken term is Spanner. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 -26 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 14 of 31) Tj ET
-endstream
-endobj
-31 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 30 0 R >>
-endobj
-32 0 obj
-<< /Length 3477 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 70 | MARLIN TEST 7 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 7, audio drill 5\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Bucket) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Bucket) Tj ET
-BT /F1 9 Tf 42 716 Td (- Spanner) Tj ET
-BT /F1 9 Tf 42 702 Td (- Cargo) Tj ET
-BT /F1 9 Tf 42 688 Td (- Binoculars) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Bucket) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Bucket. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 71 | MARLIN TEST 8 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 8, audio drill 5\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Anchor) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Anchor) Tj ET
-BT /F1 9 Tf 42 548 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 534 Td (- Safety boots) Tj ET
-BT /F1 9 Tf 42 520 Td (- Compass) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Anchor) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Anchor. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 478 Td () Tj ET
-BT /F1 9 Tf 42 464 Td (QUESTION 72 | MARLIN TEST 8 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 450 Td (Listen to the spoken maritime term and select the matching item \(Test 8, audio drill 8\).) Tj ET
-BT /F1 9 Tf 42 436 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 422 Td (Cargo) Tj ET
-BT /F1 9 Tf 42 408 Td (Options:) Tj ET
-BT /F1 9 Tf 42 394 Td (- Cargo) Tj ET
-BT /F1 9 Tf 42 380 Td (- Binoculars) Tj ET
-BT /F1 9 Tf 42 366 Td (- Sample bottle) Tj ET
-BT /F1 9 Tf 42 352 Td (- Mooring line) Tj ET
-BT /F1 9 Tf 42 338 Td (CORRECT ANSWER: Cargo) Tj ET
-BT /F1 9 Tf 42 324 Td (Explanation: The spoken term is Cargo. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 310 Td () Tj ET
-BT /F1 9 Tf 42 296 Td (QUESTION 73 | MARLIN TEST 8 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 282 Td (Listen to the spoken maritime term and select the matching item \(Test 8, audio drill 3\).) Tj ET
-BT /F1 9 Tf 42 268 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 254 Td (Spanner) Tj ET
-BT /F1 9 Tf 42 240 Td (Options:) Tj ET
-BT /F1 9 Tf 42 226 Td (- Spanner) Tj ET
-BT /F1 9 Tf 42 212 Td (- Cargo) Tj ET
-BT /F1 9 Tf 42 198 Td (- Binoculars) Tj ET
-BT /F1 9 Tf 42 184 Td (- Sample bottle) Tj ET
-BT /F1 9 Tf 42 170 Td (CORRECT ANSWER: Spanner) Tj ET
-BT /F1 9 Tf 42 156 Td (Explanation: The spoken term is Spanner. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 142 Td () Tj ET
-BT /F1 9 Tf 42 128 Td (QUESTION 74 | MARLIN TEST 8 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 114 Td (Listen to the spoken maritime term and select the matching item \(Test 8, audio drill 2\).) Tj ET
-BT /F1 9 Tf 42 100 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 86 Td (Rescue buoy) Tj ET
-BT /F1 9 Tf 42 72 Td (Options:) Tj ET
-BT /F1 9 Tf 42 58 Td (- Rescue buoy) Tj ET
-BT /F1 9 Tf 42 44 Td (- Radar) Tj ET
-BT /F1 9 Tf 42 30 Td (- Wrench) Tj ET
-BT /F1 9 Tf 42 16 Td (- Work gloves) Tj ET
-BT /F1 9 Tf 42 2 Td (CORRECT ANSWER: Rescue buoy) Tj ET
-BT /F1 9 Tf 42 -12 Td (Explanation: The spoken term is Rescue buoy. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 -26 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 15 of 31) Tj ET
-endstream
-endobj
-33 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 32 0 R >>
-endobj
-34 0 obj
-<< /Length 3531 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 75 | MARLIN TEST 8 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 8, audio drill 1\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Lifebuoy) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Lifebuoy) Tj ET
-BT /F1 9 Tf 42 716 Td (- Safety helmet) Tj ET
-BT /F1 9 Tf 42 702 Td (- Torch) Tj ET
-BT /F1 9 Tf 42 688 Td (- Lifejacket) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Lifebuoy) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Lifebuoy. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 76 | MARLIN TEST 8 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 8, audio drill 7\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Radar) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Radar) Tj ET
-BT /F1 9 Tf 42 548 Td (- Wrench) Tj ET
-BT /F1 9 Tf 42 534 Td (- Work gloves) Tj ET
-BT /F1 9 Tf 42 520 Td (- Toolbox) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Radar) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Radar. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 478 Td () Tj ET
-BT /F1 9 Tf 42 464 Td (QUESTION 77 | MARLIN TEST 8 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 450 Td (Listen to the spoken maritime term and select the matching item \(Test 8, audio drill 6\).) Tj ET
-BT /F1 9 Tf 42 436 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 422 Td (Safety helmet) Tj ET
-BT /F1 9 Tf 42 408 Td (Options:) Tj ET
-BT /F1 9 Tf 42 394 Td (- Safety helmet) Tj ET
-BT /F1 9 Tf 42 380 Td (- Torch) Tj ET
-BT /F1 9 Tf 42 366 Td (- Lifejacket) Tj ET
-BT /F1 9 Tf 42 352 Td (- Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 338 Td (CORRECT ANSWER: Safety helmet) Tj ET
-BT /F1 9 Tf 42 324 Td (Explanation: The spoken term is Safety helmet. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 310 Td (item.) Tj ET
-BT /F1 9 Tf 42 296 Td () Tj ET
-BT /F1 9 Tf 42 282 Td (QUESTION 78 | MARLIN TEST 8 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 268 Td (Listen to the spoken maritime term and select the matching item \(Test 8, audio drill 9\).) Tj ET
-BT /F1 9 Tf 42 254 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 240 Td (Whistle) Tj ET
-BT /F1 9 Tf 42 226 Td (Options:) Tj ET
-BT /F1 9 Tf 42 212 Td (- Whistle) Tj ET
-BT /F1 9 Tf 42 198 Td (- Sea chart) Tj ET
-BT /F1 9 Tf 42 184 Td (- Bearing compass) Tj ET
-BT /F1 9 Tf 42 170 Td (- Ladder) Tj ET
-BT /F1 9 Tf 42 156 Td (CORRECT ANSWER: Whistle) Tj ET
-BT /F1 9 Tf 42 142 Td (Explanation: The spoken term is Whistle. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 128 Td () Tj ET
-BT /F1 9 Tf 42 114 Td (QUESTION 79 | MARLIN TEST 8 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 100 Td (Listen to the spoken maritime term and select the matching item \(Test 8, audio drill 10\).) Tj ET
-BT /F1 9 Tf 42 86 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 72 Td (Radio) Tj ET
-BT /F1 9 Tf 42 58 Td (Options:) Tj ET
-BT /F1 9 Tf 42 44 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 30 Td (- Safety boots) Tj ET
-BT /F1 9 Tf 42 16 Td (- Compass) Tj ET
-BT /F1 9 Tf 42 2 Td (- Boat hook) Tj ET
-BT /F1 9 Tf 42 -12 Td (CORRECT ANSWER: Radio) Tj ET
-BT /F1 9 Tf 42 -26 Td (Explanation: The spoken term is Radio. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 -40 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 16 of 31) Tj ET
-endstream
-endobj
-35 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 34 0 R >>
-endobj
-36 0 obj
-<< /Length 3504 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 80 | MARLIN TEST 8 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 8, audio drill 4\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Fuel tank) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Fuel tank) Tj ET
-BT /F1 9 Tf 42 716 Td (- Whistle) Tj ET
-BT /F1 9 Tf 42 702 Td (- Sea chart) Tj ET
-BT /F1 9 Tf 42 688 Td (- Bearing compass) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Fuel tank) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Fuel tank. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 81 | MARLIN TEST 9 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 9, audio drill 1\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Cargo) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Cargo) Tj ET
-BT /F1 9 Tf 42 548 Td (- Binoculars) Tj ET
-BT /F1 9 Tf 42 534 Td (- Sample bottle) Tj ET
-BT /F1 9 Tf 42 520 Td (- Mooring line) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Cargo) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Cargo. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 478 Td () Tj ET
-BT /F1 9 Tf 42 464 Td (QUESTION 82 | MARLIN TEST 9 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 450 Td (Listen to the spoken maritime term and select the matching item \(Test 9, audio drill 2\).) Tj ET
-BT /F1 9 Tf 42 436 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 422 Td (Whistle) Tj ET
-BT /F1 9 Tf 42 408 Td (Options:) Tj ET
-BT /F1 9 Tf 42 394 Td (- Whistle) Tj ET
-BT /F1 9 Tf 42 380 Td (- Sea chart) Tj ET
-BT /F1 9 Tf 42 366 Td (- Bearing compass) Tj ET
-BT /F1 9 Tf 42 352 Td (- Ladder) Tj ET
-BT /F1 9 Tf 42 338 Td (CORRECT ANSWER: Whistle) Tj ET
-BT /F1 9 Tf 42 324 Td (Explanation: The spoken term is Whistle. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 310 Td () Tj ET
-BT /F1 9 Tf 42 296 Td (QUESTION 83 | MARLIN TEST 9 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 282 Td (Listen to the spoken maritime term and select the matching item \(Test 9, audio drill 5\).) Tj ET
-BT /F1 9 Tf 42 268 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 254 Td (Wrench) Tj ET
-BT /F1 9 Tf 42 240 Td (Options:) Tj ET
-BT /F1 9 Tf 42 226 Td (- Wrench) Tj ET
-BT /F1 9 Tf 42 212 Td (- Work gloves) Tj ET
-BT /F1 9 Tf 42 198 Td (- Toolbox) Tj ET
-BT /F1 9 Tf 42 184 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 170 Td (CORRECT ANSWER: Wrench) Tj ET
-BT /F1 9 Tf 42 156 Td (Explanation: The spoken term is Wrench. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 142 Td () Tj ET
-BT /F1 9 Tf 42 128 Td (QUESTION 84 | MARLIN TEST 9 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 114 Td (Listen to the spoken maritime term and select the matching item \(Test 9, audio drill 9\).) Tj ET
-BT /F1 9 Tf 42 100 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 86 Td (Lifejacket) Tj ET
-BT /F1 9 Tf 42 72 Td (Options:) Tj ET
-BT /F1 9 Tf 42 58 Td (- Lifejacket) Tj ET
-BT /F1 9 Tf 42 44 Td (- Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 30 Td (- Grapnel) Tj ET
-BT /F1 9 Tf 42 16 Td (- Lifebuoy) Tj ET
-BT /F1 9 Tf 42 2 Td (CORRECT ANSWER: Lifejacket) Tj ET
-BT /F1 9 Tf 42 -12 Td (Explanation: The spoken term is Lifejacket. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 -26 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 17 of 31) Tj ET
-endstream
-endobj
-37 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 36 0 R >>
-endobj
-38 0 obj
-<< /Length 3542 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 85 | MARLIN TEST 9 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 9, audio drill 6\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Binoculars) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Binoculars) Tj ET
-BT /F1 9 Tf 42 716 Td (- Sample bottle) Tj ET
-BT /F1 9 Tf 42 702 Td (- Mooring line) Tj ET
-BT /F1 9 Tf 42 688 Td (- Bucket) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Binoculars) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Binoculars. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 86 | MARLIN TEST 9 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 9, audio drill 4\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Torch) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Torch) Tj ET
-BT /F1 9 Tf 42 548 Td (- Lifejacket) Tj ET
-BT /F1 9 Tf 42 534 Td (- Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 520 Td (- Grapnel) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Torch) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Torch. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 478 Td () Tj ET
-BT /F1 9 Tf 42 464 Td (QUESTION 87 | MARLIN TEST 9 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 450 Td (Listen to the spoken maritime term and select the matching item \(Test 9, audio drill 3\).) Tj ET
-BT /F1 9 Tf 42 436 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 422 Td (Radio) Tj ET
-BT /F1 9 Tf 42 408 Td (Options:) Tj ET
-BT /F1 9 Tf 42 394 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 380 Td (- Safety boots) Tj ET
-BT /F1 9 Tf 42 366 Td (- Compass) Tj ET
-BT /F1 9 Tf 42 352 Td (- Boat hook) Tj ET
-BT /F1 9 Tf 42 338 Td (CORRECT ANSWER: Radio) Tj ET
-BT /F1 9 Tf 42 324 Td (Explanation: The spoken term is Radio. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 310 Td () Tj ET
-BT /F1 9 Tf 42 296 Td (QUESTION 88 | MARLIN TEST 9 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 282 Td (Listen to the spoken maritime term and select the matching item \(Test 9, audio drill 7\).) Tj ET
-BT /F1 9 Tf 42 268 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 254 Td (Sea chart) Tj ET
-BT /F1 9 Tf 42 240 Td (Options:) Tj ET
-BT /F1 9 Tf 42 226 Td (- Sea chart) Tj ET
-BT /F1 9 Tf 42 212 Td (- Bearing compass) Tj ET
-BT /F1 9 Tf 42 198 Td (- Ladder) Tj ET
-BT /F1 9 Tf 42 184 Td (- Ship) Tj ET
-BT /F1 9 Tf 42 170 Td (CORRECT ANSWER: Sea chart) Tj ET
-BT /F1 9 Tf 42 156 Td (Explanation: The spoken term is Sea chart. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 142 Td () Tj ET
-BT /F1 9 Tf 42 128 Td (QUESTION 89 | MARLIN TEST 9 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 114 Td (Listen to the spoken maritime term and select the matching item \(Test 9, audio drill 8\).) Tj ET
-BT /F1 9 Tf 42 100 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 86 Td (Safety boots) Tj ET
-BT /F1 9 Tf 42 72 Td (Options:) Tj ET
-BT /F1 9 Tf 42 58 Td (- Safety boots) Tj ET
-BT /F1 9 Tf 42 44 Td (- Compass) Tj ET
-BT /F1 9 Tf 42 30 Td (- Boat hook) Tj ET
-BT /F1 9 Tf 42 16 Td (- Lifeboat) Tj ET
-BT /F1 9 Tf 42 2 Td (CORRECT ANSWER: Safety boots) Tj ET
-BT /F1 9 Tf 42 -12 Td (Explanation: The spoken term is Safety boots. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 -26 Td (item.) Tj ET
-BT /F1 9 Tf 42 -40 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 18 of 31) Tj ET
-endstream
-endobj
-39 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 38 0 R >>
-endobj
-40 0 obj
-<< /Length 3595 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 90 | MARLIN TEST 9 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 9, audio drill 10\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Work gloves) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Work gloves) Tj ET
-BT /F1 9 Tf 42 716 Td (- Toolbox) Tj ET
-BT /F1 9 Tf 42 702 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 688 Td (- Rescue buoy) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Work gloves) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Work gloves. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 91 | MARLIN TEST 10 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 10, audio drill 10\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Ladder) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Ladder) Tj ET
-BT /F1 9 Tf 42 548 Td (- Ship) Tj ET
-BT /F1 9 Tf 42 534 Td (- Fuel tank) Tj ET
-BT /F1 9 Tf 42 520 Td (- Whistle) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Ladder) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Ladder. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 478 Td () Tj ET
-BT /F1 9 Tf 42 464 Td (QUESTION 92 | MARLIN TEST 10 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 450 Td (Listen to the spoken maritime term and select the matching item \(Test 10, audio drill 4\).) Tj ET
-BT /F1 9 Tf 42 436 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 422 Td (Sample bottle) Tj ET
-BT /F1 9 Tf 42 408 Td (Options:) Tj ET
-BT /F1 9 Tf 42 394 Td (- Sample bottle) Tj ET
-BT /F1 9 Tf 42 380 Td (- Mooring line) Tj ET
-BT /F1 9 Tf 42 366 Td (- Bucket) Tj ET
-BT /F1 9 Tf 42 352 Td (- Spanner) Tj ET
-BT /F1 9 Tf 42 338 Td (CORRECT ANSWER: Sample bottle) Tj ET
-BT /F1 9 Tf 42 324 Td (Explanation: The spoken term is Sample bottle. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 310 Td (item.) Tj ET
-BT /F1 9 Tf 42 296 Td () Tj ET
-BT /F1 9 Tf 42 282 Td (QUESTION 93 | MARLIN TEST 10 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 268 Td (Listen to the spoken maritime term and select the matching item \(Test 10, audio drill 9\).) Tj ET
-BT /F1 9 Tf 42 254 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 240 Td (Mooring line) Tj ET
-BT /F1 9 Tf 42 226 Td (Options:) Tj ET
-BT /F1 9 Tf 42 212 Td (- Mooring line) Tj ET
-BT /F1 9 Tf 42 198 Td (- Bucket) Tj ET
-BT /F1 9 Tf 42 184 Td (- Spanner) Tj ET
-BT /F1 9 Tf 42 170 Td (- Cargo) Tj ET
-BT /F1 9 Tf 42 156 Td (CORRECT ANSWER: Mooring line) Tj ET
-BT /F1 9 Tf 42 142 Td (Explanation: The spoken term is Mooring line. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 128 Td (item.) Tj ET
-BT /F1 9 Tf 42 114 Td () Tj ET
-BT /F1 9 Tf 42 100 Td (QUESTION 94 | MARLIN TEST 10 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 86 Td (Listen to the spoken maritime term and select the matching item \(Test 10, audio drill 3\).) Tj ET
-BT /F1 9 Tf 42 72 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 58 Td (Work gloves) Tj ET
-BT /F1 9 Tf 42 44 Td (Options:) Tj ET
-BT /F1 9 Tf 42 30 Td (- Work gloves) Tj ET
-BT /F1 9 Tf 42 16 Td (- Toolbox) Tj ET
-BT /F1 9 Tf 42 2 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 -12 Td (- Rescue buoy) Tj ET
-BT /F1 9 Tf 42 -26 Td (CORRECT ANSWER: Work gloves) Tj ET
-BT /F1 9 Tf 42 -40 Td (Explanation: The spoken term is Work gloves. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 -54 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 19 of 31) Tj ET
-endstream
-endobj
-41 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 40 0 R >>
-endobj
-42 0 obj
-<< /Length 3622 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 95 | MARLIN TEST 10 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 10, audio drill 2\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Lifejacket) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Lifejacket) Tj ET
-BT /F1 9 Tf 42 716 Td (- Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 702 Td (- Grapnel) Tj ET
-BT /F1 9 Tf 42 688 Td (- Lifebuoy) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Lifejacket) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Lifejacket. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 96 | MARLIN TEST 10 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 10, audio drill 5\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Bearing compass) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Bearing compass) Tj ET
-BT /F1 9 Tf 42 548 Td (- Ladder) Tj ET
-BT /F1 9 Tf 42 534 Td (- Ship) Tj ET
-BT /F1 9 Tf 42 520 Td (- Fuel tank) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Bearing compass) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Bearing compass. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 478 Td (item.) Tj ET
-BT /F1 9 Tf 42 464 Td () Tj ET
-BT /F1 9 Tf 42 450 Td (QUESTION 97 | MARLIN TEST 10 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 436 Td (Listen to the spoken maritime term and select the matching item \(Test 10, audio drill 6\).) Tj ET
-BT /F1 9 Tf 42 422 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 408 Td (Compass) Tj ET
-BT /F1 9 Tf 42 394 Td (Options:) Tj ET
-BT /F1 9 Tf 42 380 Td (- Compass) Tj ET
-BT /F1 9 Tf 42 366 Td (- Boat hook) Tj ET
-BT /F1 9 Tf 42 352 Td (- Lifeboat) Tj ET
-BT /F1 9 Tf 42 338 Td (- Anchor) Tj ET
-BT /F1 9 Tf 42 324 Td (CORRECT ANSWER: Compass) Tj ET
-BT /F1 9 Tf 42 310 Td (Explanation: The spoken term is Compass. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 296 Td () Tj ET
-BT /F1 9 Tf 42 282 Td (QUESTION 98 | MARLIN TEST 10 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 268 Td (Listen to the spoken maritime term and select the matching item \(Test 10, audio drill 8\).) Tj ET
-BT /F1 9 Tf 42 254 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 240 Td (Toolbox) Tj ET
-BT /F1 9 Tf 42 226 Td (Options:) Tj ET
-BT /F1 9 Tf 42 212 Td (- Toolbox) Tj ET
-BT /F1 9 Tf 42 198 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 184 Td (- Rescue buoy) Tj ET
-BT /F1 9 Tf 42 170 Td (- Radar) Tj ET
-BT /F1 9 Tf 42 156 Td (CORRECT ANSWER: Toolbox) Tj ET
-BT /F1 9 Tf 42 142 Td (Explanation: The spoken term is Toolbox. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 128 Td () Tj ET
-BT /F1 9 Tf 42 114 Td (QUESTION 99 | MARLIN TEST 10 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 100 Td (Listen to the spoken maritime term and select the matching item \(Test 10, audio drill 7\).) Tj ET
-BT /F1 9 Tf 42 86 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 72 Td (Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 58 Td (Options:) Tj ET
-BT /F1 9 Tf 42 44 Td (- Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 30 Td (- Grapnel) Tj ET
-BT /F1 9 Tf 42 16 Td (- Lifebuoy) Tj ET
-BT /F1 9 Tf 42 2 Td (- Safety helmet) Tj ET
-BT /F1 9 Tf 42 -12 Td (CORRECT ANSWER: Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 -26 Td (Explanation: The spoken term is Fire extinguisher. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 -40 Td (item.) Tj ET
-BT /F1 9 Tf 42 -54 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 20 of 31) Tj ET
-endstream
-endobj
-43 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 42 0 R >>
-endobj
-44 0 obj
-<< /Length 3573 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 100 | MARLIN TEST 10 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 10, audio drill 1\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Safety boots) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Safety boots) Tj ET
-BT /F1 9 Tf 42 716 Td (- Compass) Tj ET
-BT /F1 9 Tf 42 702 Td (- Boat hook) Tj ET
-BT /F1 9 Tf 42 688 Td (- Lifeboat) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Safety boots) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Safety boots. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 646 Td (item.) Tj ET
-BT /F1 9 Tf 42 632 Td () Tj ET
-BT /F1 9 Tf 42 618 Td (QUESTION 101 | MARLIN TEST 11 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 604 Td (Listen to the spoken maritime term and select the matching item \(Test 11, audio drill 9\).) Tj ET
-BT /F1 9 Tf 42 590 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 576 Td (Lifeboat) Tj ET
-BT /F1 9 Tf 42 562 Td (Options:) Tj ET
-BT /F1 9 Tf 42 548 Td (- Lifeboat) Tj ET
-BT /F1 9 Tf 42 534 Td (- Anchor) Tj ET
-BT /F1 9 Tf 42 520 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 506 Td (- Safety boots) Tj ET
-BT /F1 9 Tf 42 492 Td (CORRECT ANSWER: Lifeboat) Tj ET
-BT /F1 9 Tf 42 478 Td (Explanation: The spoken term is Lifeboat. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 464 Td () Tj ET
-BT /F1 9 Tf 42 450 Td (QUESTION 102 | MARLIN TEST 11 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 436 Td (Listen to the spoken maritime term and select the matching item \(Test 11, audio drill 2\).) Tj ET
-BT /F1 9 Tf 42 422 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 408 Td (Mooring line) Tj ET
-BT /F1 9 Tf 42 394 Td (Options:) Tj ET
-BT /F1 9 Tf 42 380 Td (- Mooring line) Tj ET
-BT /F1 9 Tf 42 366 Td (- Bucket) Tj ET
-BT /F1 9 Tf 42 352 Td (- Spanner) Tj ET
-BT /F1 9 Tf 42 338 Td (- Cargo) Tj ET
-BT /F1 9 Tf 42 324 Td (CORRECT ANSWER: Mooring line) Tj ET
-BT /F1 9 Tf 42 310 Td (Explanation: The spoken term is Mooring line. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 296 Td (item.) Tj ET
-BT /F1 9 Tf 42 282 Td () Tj ET
-BT /F1 9 Tf 42 268 Td (QUESTION 103 | MARLIN TEST 11 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 254 Td (Listen to the spoken maritime term and select the matching item \(Test 11, audio drill 3\).) Tj ET
-BT /F1 9 Tf 42 240 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 226 Td (Ladder) Tj ET
-BT /F1 9 Tf 42 212 Td (Options:) Tj ET
-BT /F1 9 Tf 42 198 Td (- Ladder) Tj ET
-BT /F1 9 Tf 42 184 Td (- Ship) Tj ET
-BT /F1 9 Tf 42 170 Td (- Fuel tank) Tj ET
-BT /F1 9 Tf 42 156 Td (- Whistle) Tj ET
-BT /F1 9 Tf 42 142 Td (CORRECT ANSWER: Ladder) Tj ET
-BT /F1 9 Tf 42 128 Td (Explanation: The spoken term is Ladder. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 114 Td () Tj ET
-BT /F1 9 Tf 42 100 Td (QUESTION 104 | MARLIN TEST 11 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 86 Td (Listen to the spoken maritime term and select the matching item \(Test 11, audio drill 4\).) Tj ET
-BT /F1 9 Tf 42 72 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 58 Td (Boat hook) Tj ET
-BT /F1 9 Tf 42 44 Td (Options:) Tj ET
-BT /F1 9 Tf 42 30 Td (- Boat hook) Tj ET
-BT /F1 9 Tf 42 16 Td (- Lifeboat) Tj ET
-BT /F1 9 Tf 42 2 Td (- Anchor) Tj ET
-BT /F1 9 Tf 42 -12 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 -26 Td (CORRECT ANSWER: Boat hook) Tj ET
-BT /F1 9 Tf 42 -40 Td (Explanation: The spoken term is Boat hook. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 -54 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 21 of 31) Tj ET
-endstream
-endobj
-45 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 44 0 R >>
-endobj
-46 0 obj
-<< /Length 3448 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 105 | MARLIN TEST 11 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 11, audio drill 5\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Grapnel) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Grapnel) Tj ET
-BT /F1 9 Tf 42 716 Td (- Lifebuoy) Tj ET
-BT /F1 9 Tf 42 702 Td (- Safety helmet) Tj ET
-BT /F1 9 Tf 42 688 Td (- Torch) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Grapnel) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Grapnel. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 106 | MARLIN TEST 11 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 11, audio drill 6\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Rope) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 548 Td (- Rescue buoy) Tj ET
-BT /F1 9 Tf 42 534 Td (- Radar) Tj ET
-BT /F1 9 Tf 42 520 Td (- Wrench) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Rope) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Rope. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 478 Td () Tj ET
-BT /F1 9 Tf 42 464 Td (QUESTION 107 | MARLIN TEST 11 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 450 Td (Listen to the spoken maritime term and select the matching item \(Test 11, audio drill 1\).) Tj ET
-BT /F1 9 Tf 42 436 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 422 Td (Toolbox) Tj ET
-BT /F1 9 Tf 42 408 Td (Options:) Tj ET
-BT /F1 9 Tf 42 394 Td (- Toolbox) Tj ET
-BT /F1 9 Tf 42 380 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 366 Td (- Rescue buoy) Tj ET
-BT /F1 9 Tf 42 352 Td (- Radar) Tj ET
-BT /F1 9 Tf 42 338 Td (CORRECT ANSWER: Toolbox) Tj ET
-BT /F1 9 Tf 42 324 Td (Explanation: The spoken term is Toolbox. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 310 Td () Tj ET
-BT /F1 9 Tf 42 296 Td (QUESTION 108 | MARLIN TEST 11 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 282 Td (Listen to the spoken maritime term and select the matching item \(Test 11, audio drill 8\).) Tj ET
-BT /F1 9 Tf 42 268 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 254 Td (Ship) Tj ET
-BT /F1 9 Tf 42 240 Td (Options:) Tj ET
-BT /F1 9 Tf 42 226 Td (- Ship) Tj ET
-BT /F1 9 Tf 42 212 Td (- Fuel tank) Tj ET
-BT /F1 9 Tf 42 198 Td (- Whistle) Tj ET
-BT /F1 9 Tf 42 184 Td (- Sea chart) Tj ET
-BT /F1 9 Tf 42 170 Td (CORRECT ANSWER: Ship) Tj ET
-BT /F1 9 Tf 42 156 Td (Explanation: The spoken term is Ship. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 142 Td () Tj ET
-BT /F1 9 Tf 42 128 Td (QUESTION 109 | MARLIN TEST 11 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 114 Td (Listen to the spoken maritime term and select the matching item \(Test 11, audio drill 7\).) Tj ET
-BT /F1 9 Tf 42 100 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 86 Td (Bucket) Tj ET
-BT /F1 9 Tf 42 72 Td (Options:) Tj ET
-BT /F1 9 Tf 42 58 Td (- Bucket) Tj ET
-BT /F1 9 Tf 42 44 Td (- Spanner) Tj ET
-BT /F1 9 Tf 42 30 Td (- Cargo) Tj ET
-BT /F1 9 Tf 42 16 Td (- Binoculars) Tj ET
-BT /F1 9 Tf 42 2 Td (CORRECT ANSWER: Bucket) Tj ET
-BT /F1 9 Tf 42 -12 Td (Explanation: The spoken term is Bucket. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 -26 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 22 of 31) Tj ET
-endstream
-endobj
-47 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 46 0 R >>
-endobj
-48 0 obj
-<< /Length 3498 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 110 | MARLIN TEST 11 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 11, audio drill 10\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Lifebuoy) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Lifebuoy) Tj ET
-BT /F1 9 Tf 42 716 Td (- Safety helmet) Tj ET
-BT /F1 9 Tf 42 702 Td (- Torch) Tj ET
-BT /F1 9 Tf 42 688 Td (- Lifejacket) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Lifebuoy) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Lifebuoy. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 111 | MARLIN TEST 12 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 12, audio drill 3\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Lifebuoy) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Lifebuoy) Tj ET
-BT /F1 9 Tf 42 548 Td (- Safety helmet) Tj ET
-BT /F1 9 Tf 42 534 Td (- Torch) Tj ET
-BT /F1 9 Tf 42 520 Td (- Lifejacket) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Lifebuoy) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Lifebuoy. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 478 Td () Tj ET
-BT /F1 9 Tf 42 464 Td (QUESTION 112 | MARLIN TEST 12 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 450 Td (Listen to the spoken maritime term and select the matching item \(Test 12, audio drill 1\).) Tj ET
-BT /F1 9 Tf 42 436 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 422 Td (Ship) Tj ET
-BT /F1 9 Tf 42 408 Td (Options:) Tj ET
-BT /F1 9 Tf 42 394 Td (- Ship) Tj ET
-BT /F1 9 Tf 42 380 Td (- Fuel tank) Tj ET
-BT /F1 9 Tf 42 366 Td (- Whistle) Tj ET
-BT /F1 9 Tf 42 352 Td (- Sea chart) Tj ET
-BT /F1 9 Tf 42 338 Td (CORRECT ANSWER: Ship) Tj ET
-BT /F1 9 Tf 42 324 Td (Explanation: The spoken term is Ship. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 310 Td () Tj ET
-BT /F1 9 Tf 42 296 Td (QUESTION 113 | MARLIN TEST 12 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 282 Td (Listen to the spoken maritime term and select the matching item \(Test 12, audio drill 6\).) Tj ET
-BT /F1 9 Tf 42 268 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 254 Td (Fuel tank) Tj ET
-BT /F1 9 Tf 42 240 Td (Options:) Tj ET
-BT /F1 9 Tf 42 226 Td (- Fuel tank) Tj ET
-BT /F1 9 Tf 42 212 Td (- Whistle) Tj ET
-BT /F1 9 Tf 42 198 Td (- Sea chart) Tj ET
-BT /F1 9 Tf 42 184 Td (- Bearing compass) Tj ET
-BT /F1 9 Tf 42 170 Td (CORRECT ANSWER: Fuel tank) Tj ET
-BT /F1 9 Tf 42 156 Td (Explanation: The spoken term is Fuel tank. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 142 Td () Tj ET
-BT /F1 9 Tf 42 128 Td (QUESTION 114 | MARLIN TEST 12 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 114 Td (Listen to the spoken maritime term and select the matching item \(Test 12, audio drill 7\).) Tj ET
-BT /F1 9 Tf 42 100 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 86 Td (Anchor) Tj ET
-BT /F1 9 Tf 42 72 Td (Options:) Tj ET
-BT /F1 9 Tf 42 58 Td (- Anchor) Tj ET
-BT /F1 9 Tf 42 44 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 30 Td (- Safety boots) Tj ET
-BT /F1 9 Tf 42 16 Td (- Compass) Tj ET
-BT /F1 9 Tf 42 2 Td (CORRECT ANSWER: Anchor) Tj ET
-BT /F1 9 Tf 42 -12 Td (Explanation: The spoken term is Anchor. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 -26 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 23 of 31) Tj ET
-endstream
-endobj
-49 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 48 0 R >>
-endobj
-50 0 obj
-<< /Length 3556 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 115 | MARLIN TEST 12 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 12, audio drill 5\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Spanner) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Spanner) Tj ET
-BT /F1 9 Tf 42 716 Td (- Cargo) Tj ET
-BT /F1 9 Tf 42 702 Td (- Binoculars) Tj ET
-BT /F1 9 Tf 42 688 Td (- Sample bottle) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Spanner) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Spanner. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 116 | MARLIN TEST 12 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 12, audio drill 8\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Safety helmet) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Safety helmet) Tj ET
-BT /F1 9 Tf 42 548 Td (- Torch) Tj ET
-BT /F1 9 Tf 42 534 Td (- Lifejacket) Tj ET
-BT /F1 9 Tf 42 520 Td (- Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Safety helmet) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Safety helmet. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 478 Td (item.) Tj ET
-BT /F1 9 Tf 42 464 Td () Tj ET
-BT /F1 9 Tf 42 450 Td (QUESTION 117 | MARLIN TEST 12 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 436 Td (Listen to the spoken maritime term and select the matching item \(Test 12, audio drill 2\).) Tj ET
-BT /F1 9 Tf 42 422 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 408 Td (Lifeboat) Tj ET
-BT /F1 9 Tf 42 394 Td (Options:) Tj ET
-BT /F1 9 Tf 42 380 Td (- Lifeboat) Tj ET
-BT /F1 9 Tf 42 366 Td (- Anchor) Tj ET
-BT /F1 9 Tf 42 352 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 338 Td (- Safety boots) Tj ET
-BT /F1 9 Tf 42 324 Td (CORRECT ANSWER: Lifeboat) Tj ET
-BT /F1 9 Tf 42 310 Td (Explanation: The spoken term is Lifeboat. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 296 Td () Tj ET
-BT /F1 9 Tf 42 282 Td (QUESTION 118 | MARLIN TEST 12 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 268 Td (Listen to the spoken maritime term and select the matching item \(Test 12, audio drill 9\).) Tj ET
-BT /F1 9 Tf 42 254 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 240 Td (Radar) Tj ET
-BT /F1 9 Tf 42 226 Td (Options:) Tj ET
-BT /F1 9 Tf 42 212 Td (- Radar) Tj ET
-BT /F1 9 Tf 42 198 Td (- Wrench) Tj ET
-BT /F1 9 Tf 42 184 Td (- Work gloves) Tj ET
-BT /F1 9 Tf 42 170 Td (- Toolbox) Tj ET
-BT /F1 9 Tf 42 156 Td (CORRECT ANSWER: Radar) Tj ET
-BT /F1 9 Tf 42 142 Td (Explanation: The spoken term is Radar. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 128 Td () Tj ET
-BT /F1 9 Tf 42 114 Td (QUESTION 119 | MARLIN TEST 12 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 100 Td (Listen to the spoken maritime term and select the matching item \(Test 12, audio drill 4\).) Tj ET
-BT /F1 9 Tf 42 86 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 72 Td (Rescue buoy) Tj ET
-BT /F1 9 Tf 42 58 Td (Options:) Tj ET
-BT /F1 9 Tf 42 44 Td (- Rescue buoy) Tj ET
-BT /F1 9 Tf 42 30 Td (- Radar) Tj ET
-BT /F1 9 Tf 42 16 Td (- Wrench) Tj ET
-BT /F1 9 Tf 42 2 Td (- Work gloves) Tj ET
-BT /F1 9 Tf 42 -12 Td (CORRECT ANSWER: Rescue buoy) Tj ET
-BT /F1 9 Tf 42 -26 Td (Explanation: The spoken term is Rescue buoy. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 -40 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 24 of 31) Tj ET
-endstream
-endobj
-51 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 50 0 R >>
-endobj
-52 0 obj
-<< /Length 3529 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 120 | MARLIN TEST 12 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 12, audio drill 10\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Cargo) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Cargo) Tj ET
-BT /F1 9 Tf 42 716 Td (- Binoculars) Tj ET
-BT /F1 9 Tf 42 702 Td (- Sample bottle) Tj ET
-BT /F1 9 Tf 42 688 Td (- Mooring line) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Cargo) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Cargo. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 121 | MARLIN TEST 13 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 13, audio drill 2\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Radar) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Radar) Tj ET
-BT /F1 9 Tf 42 548 Td (- Wrench) Tj ET
-BT /F1 9 Tf 42 534 Td (- Work gloves) Tj ET
-BT /F1 9 Tf 42 520 Td (- Toolbox) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Radar) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Radar. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 478 Td () Tj ET
-BT /F1 9 Tf 42 464 Td (QUESTION 122 | MARLIN TEST 13 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 450 Td (Listen to the spoken maritime term and select the matching item \(Test 13, audio drill 5\).) Tj ET
-BT /F1 9 Tf 42 436 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 422 Td (Radio) Tj ET
-BT /F1 9 Tf 42 408 Td (Options:) Tj ET
-BT /F1 9 Tf 42 394 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 380 Td (- Safety boots) Tj ET
-BT /F1 9 Tf 42 366 Td (- Compass) Tj ET
-BT /F1 9 Tf 42 352 Td (- Boat hook) Tj ET
-BT /F1 9 Tf 42 338 Td (CORRECT ANSWER: Radio) Tj ET
-BT /F1 9 Tf 42 324 Td (Explanation: The spoken term is Radio. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 310 Td () Tj ET
-BT /F1 9 Tf 42 296 Td (QUESTION 123 | MARLIN TEST 13 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 282 Td (Listen to the spoken maritime term and select the matching item \(Test 13, audio drill 1\).) Tj ET
-BT /F1 9 Tf 42 268 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 254 Td (Safety helmet) Tj ET
-BT /F1 9 Tf 42 240 Td (Options:) Tj ET
-BT /F1 9 Tf 42 226 Td (- Safety helmet) Tj ET
-BT /F1 9 Tf 42 212 Td (- Torch) Tj ET
-BT /F1 9 Tf 42 198 Td (- Lifejacket) Tj ET
-BT /F1 9 Tf 42 184 Td (- Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 170 Td (CORRECT ANSWER: Safety helmet) Tj ET
-BT /F1 9 Tf 42 156 Td (Explanation: The spoken term is Safety helmet. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 142 Td (item.) Tj ET
-BT /F1 9 Tf 42 128 Td () Tj ET
-BT /F1 9 Tf 42 114 Td (QUESTION 124 | MARLIN TEST 13 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 100 Td (Listen to the spoken maritime term and select the matching item \(Test 13, audio drill 7\).) Tj ET
-BT /F1 9 Tf 42 86 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 72 Td (Wrench) Tj ET
-BT /F1 9 Tf 42 58 Td (Options:) Tj ET
-BT /F1 9 Tf 42 44 Td (- Wrench) Tj ET
-BT /F1 9 Tf 42 30 Td (- Work gloves) Tj ET
-BT /F1 9 Tf 42 16 Td (- Toolbox) Tj ET
-BT /F1 9 Tf 42 2 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 -12 Td (CORRECT ANSWER: Wrench) Tj ET
-BT /F1 9 Tf 42 -26 Td (Explanation: The spoken term is Wrench. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 -40 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 25 of 31) Tj ET
-endstream
-endobj
-53 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 52 0 R >>
-endobj
-54 0 obj
-<< /Length 3562 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 125 | MARLIN TEST 13 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 13, audio drill 8\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Binoculars) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Binoculars) Tj ET
-BT /F1 9 Tf 42 716 Td (- Sample bottle) Tj ET
-BT /F1 9 Tf 42 702 Td (- Mooring line) Tj ET
-BT /F1 9 Tf 42 688 Td (- Bucket) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Binoculars) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Binoculars. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 126 | MARLIN TEST 13 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 13, audio drill 4\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Whistle) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Whistle) Tj ET
-BT /F1 9 Tf 42 548 Td (- Sea chart) Tj ET
-BT /F1 9 Tf 42 534 Td (- Bearing compass) Tj ET
-BT /F1 9 Tf 42 520 Td (- Ladder) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Whistle) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Whistle. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 478 Td () Tj ET
-BT /F1 9 Tf 42 464 Td (QUESTION 127 | MARLIN TEST 13 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 450 Td (Listen to the spoken maritime term and select the matching item \(Test 13, audio drill 3\).) Tj ET
-BT /F1 9 Tf 42 436 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 422 Td (Cargo) Tj ET
-BT /F1 9 Tf 42 408 Td (Options:) Tj ET
-BT /F1 9 Tf 42 394 Td (- Cargo) Tj ET
-BT /F1 9 Tf 42 380 Td (- Binoculars) Tj ET
-BT /F1 9 Tf 42 366 Td (- Sample bottle) Tj ET
-BT /F1 9 Tf 42 352 Td (- Mooring line) Tj ET
-BT /F1 9 Tf 42 338 Td (CORRECT ANSWER: Cargo) Tj ET
-BT /F1 9 Tf 42 324 Td (Explanation: The spoken term is Cargo. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 310 Td () Tj ET
-BT /F1 9 Tf 42 296 Td (QUESTION 128 | MARLIN TEST 13 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 282 Td (Listen to the spoken maritime term and select the matching item \(Test 13, audio drill 10\).) Tj ET
-BT /F1 9 Tf 42 268 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 254 Td (Safety boots) Tj ET
-BT /F1 9 Tf 42 240 Td (Options:) Tj ET
-BT /F1 9 Tf 42 226 Td (- Safety boots) Tj ET
-BT /F1 9 Tf 42 212 Td (- Compass) Tj ET
-BT /F1 9 Tf 42 198 Td (- Boat hook) Tj ET
-BT /F1 9 Tf 42 184 Td (- Lifeboat) Tj ET
-BT /F1 9 Tf 42 170 Td (CORRECT ANSWER: Safety boots) Tj ET
-BT /F1 9 Tf 42 156 Td (Explanation: The spoken term is Safety boots. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 142 Td (item.) Tj ET
-BT /F1 9 Tf 42 128 Td () Tj ET
-BT /F1 9 Tf 42 114 Td (QUESTION 129 | MARLIN TEST 13 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 100 Td (Listen to the spoken maritime term and select the matching item \(Test 13, audio drill 6\).) Tj ET
-BT /F1 9 Tf 42 86 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 72 Td (Torch) Tj ET
-BT /F1 9 Tf 42 58 Td (Options:) Tj ET
-BT /F1 9 Tf 42 44 Td (- Torch) Tj ET
-BT /F1 9 Tf 42 30 Td (- Lifejacket) Tj ET
-BT /F1 9 Tf 42 16 Td (- Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 2 Td (- Grapnel) Tj ET
-BT /F1 9 Tf 42 -12 Td (CORRECT ANSWER: Torch) Tj ET
-BT /F1 9 Tf 42 -26 Td (Explanation: The spoken term is Torch. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 -40 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 26 of 31) Tj ET
-endstream
-endobj
-55 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 54 0 R >>
-endobj
-56 0 obj
-<< /Length 3632 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 130 | MARLIN TEST 13 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 13, audio drill 9\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Sea chart) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Sea chart) Tj ET
-BT /F1 9 Tf 42 716 Td (- Bearing compass) Tj ET
-BT /F1 9 Tf 42 702 Td (- Ladder) Tj ET
-BT /F1 9 Tf 42 688 Td (- Ship) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Sea chart) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Sea chart. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 131 | MARLIN TEST 14 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 14, audio drill 5\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Work gloves) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Work gloves) Tj ET
-BT /F1 9 Tf 42 548 Td (- Toolbox) Tj ET
-BT /F1 9 Tf 42 534 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 520 Td (- Rescue buoy) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Work gloves) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Work gloves. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 478 Td () Tj ET
-BT /F1 9 Tf 42 464 Td (QUESTION 132 | MARLIN TEST 14 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 450 Td (Listen to the spoken maritime term and select the matching item \(Test 14, audio drill 8\).) Tj ET
-BT /F1 9 Tf 42 436 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 422 Td (Compass) Tj ET
-BT /F1 9 Tf 42 408 Td (Options:) Tj ET
-BT /F1 9 Tf 42 394 Td (- Compass) Tj ET
-BT /F1 9 Tf 42 380 Td (- Boat hook) Tj ET
-BT /F1 9 Tf 42 366 Td (- Lifeboat) Tj ET
-BT /F1 9 Tf 42 352 Td (- Anchor) Tj ET
-BT /F1 9 Tf 42 338 Td (CORRECT ANSWER: Compass) Tj ET
-BT /F1 9 Tf 42 324 Td (Explanation: The spoken term is Compass. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 310 Td () Tj ET
-BT /F1 9 Tf 42 296 Td (QUESTION 133 | MARLIN TEST 14 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 282 Td (Listen to the spoken maritime term and select the matching item \(Test 14, audio drill 6\).) Tj ET
-BT /F1 9 Tf 42 268 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 254 Td (Sample bottle) Tj ET
-BT /F1 9 Tf 42 240 Td (Options:) Tj ET
-BT /F1 9 Tf 42 226 Td (- Sample bottle) Tj ET
-BT /F1 9 Tf 42 212 Td (- Mooring line) Tj ET
-BT /F1 9 Tf 42 198 Td (- Bucket) Tj ET
-BT /F1 9 Tf 42 184 Td (- Spanner) Tj ET
-BT /F1 9 Tf 42 170 Td (CORRECT ANSWER: Sample bottle) Tj ET
-BT /F1 9 Tf 42 156 Td (Explanation: The spoken term is Sample bottle. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 142 Td (item.) Tj ET
-BT /F1 9 Tf 42 128 Td () Tj ET
-BT /F1 9 Tf 42 114 Td (QUESTION 134 | MARLIN TEST 14 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 100 Td (Listen to the spoken maritime term and select the matching item \(Test 14, audio drill 9\).) Tj ET
-BT /F1 9 Tf 42 86 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 72 Td (Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 58 Td (Options:) Tj ET
-BT /F1 9 Tf 42 44 Td (- Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 30 Td (- Grapnel) Tj ET
-BT /F1 9 Tf 42 16 Td (- Lifebuoy) Tj ET
-BT /F1 9 Tf 42 2 Td (- Safety helmet) Tj ET
-BT /F1 9 Tf 42 -12 Td (CORRECT ANSWER: Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 -26 Td (Explanation: The spoken term is Fire extinguisher. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 -40 Td (item.) Tj ET
-BT /F1 9 Tf 42 -54 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 27 of 31) Tj ET
-endstream
-endobj
-57 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 56 0 R >>
-endobj
-58 0 obj
-<< /Length 3576 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 135 | MARLIN TEST 14 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 14, audio drill 10\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Toolbox) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Toolbox) Tj ET
-BT /F1 9 Tf 42 716 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 702 Td (- Rescue buoy) Tj ET
-BT /F1 9 Tf 42 688 Td (- Radar) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Toolbox) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Toolbox. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 136 | MARLIN TEST 14 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 14, audio drill 4\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Lifejacket) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Lifejacket) Tj ET
-BT /F1 9 Tf 42 548 Td (- Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 534 Td (- Grapnel) Tj ET
-BT /F1 9 Tf 42 520 Td (- Lifebuoy) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Lifejacket) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Lifejacket. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 478 Td () Tj ET
-BT /F1 9 Tf 42 464 Td (QUESTION 137 | MARLIN TEST 14 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 450 Td (Listen to the spoken maritime term and select the matching item \(Test 14, audio drill 1\).) Tj ET
-BT /F1 9 Tf 42 436 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 422 Td (Binoculars) Tj ET
-BT /F1 9 Tf 42 408 Td (Options:) Tj ET
-BT /F1 9 Tf 42 394 Td (- Binoculars) Tj ET
-BT /F1 9 Tf 42 380 Td (- Sample bottle) Tj ET
-BT /F1 9 Tf 42 366 Td (- Mooring line) Tj ET
-BT /F1 9 Tf 42 352 Td (- Bucket) Tj ET
-BT /F1 9 Tf 42 338 Td (CORRECT ANSWER: Binoculars) Tj ET
-BT /F1 9 Tf 42 324 Td (Explanation: The spoken term is Binoculars. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 310 Td () Tj ET
-BT /F1 9 Tf 42 296 Td (QUESTION 138 | MARLIN TEST 14 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 282 Td (Listen to the spoken maritime term and select the matching item \(Test 14, audio drill 2\).) Tj ET
-BT /F1 9 Tf 42 268 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 254 Td (Sea chart) Tj ET
-BT /F1 9 Tf 42 240 Td (Options:) Tj ET
-BT /F1 9 Tf 42 226 Td (- Sea chart) Tj ET
-BT /F1 9 Tf 42 212 Td (- Bearing compass) Tj ET
-BT /F1 9 Tf 42 198 Td (- Ladder) Tj ET
-BT /F1 9 Tf 42 184 Td (- Ship) Tj ET
-BT /F1 9 Tf 42 170 Td (CORRECT ANSWER: Sea chart) Tj ET
-BT /F1 9 Tf 42 156 Td (Explanation: The spoken term is Sea chart. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 142 Td () Tj ET
-BT /F1 9 Tf 42 128 Td (QUESTION 139 | MARLIN TEST 14 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 114 Td (Listen to the spoken maritime term and select the matching item \(Test 14, audio drill 3\).) Tj ET
-BT /F1 9 Tf 42 100 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 86 Td (Safety boots) Tj ET
-BT /F1 9 Tf 42 72 Td (Options:) Tj ET
-BT /F1 9 Tf 42 58 Td (- Safety boots) Tj ET
-BT /F1 9 Tf 42 44 Td (- Compass) Tj ET
-BT /F1 9 Tf 42 30 Td (- Boat hook) Tj ET
-BT /F1 9 Tf 42 16 Td (- Lifeboat) Tj ET
-BT /F1 9 Tf 42 2 Td (CORRECT ANSWER: Safety boots) Tj ET
-BT /F1 9 Tf 42 -12 Td (Explanation: The spoken term is Safety boots. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 -26 Td (item.) Tj ET
-BT /F1 9 Tf 42 -40 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 28 of 31) Tj ET
-endstream
-endobj
-59 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 58 0 R >>
-endobj
-60 0 obj
-<< /Length 3563 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 140 | MARLIN TEST 14 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 14, audio drill 7\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Bearing compass) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Bearing compass) Tj ET
-BT /F1 9 Tf 42 716 Td (- Ladder) Tj ET
-BT /F1 9 Tf 42 702 Td (- Ship) Tj ET
-BT /F1 9 Tf 42 688 Td (- Fuel tank) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Bearing compass) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Bearing compass. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 646 Td (item.) Tj ET
-BT /F1 9 Tf 42 632 Td () Tj ET
-BT /F1 9 Tf 42 618 Td (QUESTION 141 | MARLIN TEST 15 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 604 Td (Listen to the spoken maritime term and select the matching item \(Test 15, audio drill 6\).) Tj ET
-BT /F1 9 Tf 42 590 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 576 Td (Boat hook) Tj ET
-BT /F1 9 Tf 42 562 Td (Options:) Tj ET
-BT /F1 9 Tf 42 548 Td (- Boat hook) Tj ET
-BT /F1 9 Tf 42 534 Td (- Lifeboat) Tj ET
-BT /F1 9 Tf 42 520 Td (- Anchor) Tj ET
-BT /F1 9 Tf 42 506 Td (- Radio) Tj ET
-BT /F1 9 Tf 42 492 Td (CORRECT ANSWER: Boat hook) Tj ET
-BT /F1 9 Tf 42 478 Td (Explanation: The spoken term is Boat hook. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 464 Td () Tj ET
-BT /F1 9 Tf 42 450 Td (QUESTION 142 | MARLIN TEST 15 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 436 Td (Listen to the spoken maritime term and select the matching item \(Test 15, audio drill 8\).) Tj ET
-BT /F1 9 Tf 42 422 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 408 Td (Rope) Tj ET
-BT /F1 9 Tf 42 394 Td (Options:) Tj ET
-BT /F1 9 Tf 42 380 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 366 Td (- Rescue buoy) Tj ET
-BT /F1 9 Tf 42 352 Td (- Radar) Tj ET
-BT /F1 9 Tf 42 338 Td (- Wrench) Tj ET
-BT /F1 9 Tf 42 324 Td (CORRECT ANSWER: Rope) Tj ET
-BT /F1 9 Tf 42 310 Td (Explanation: The spoken term is Rope. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 296 Td () Tj ET
-BT /F1 9 Tf 42 282 Td (QUESTION 143 | MARLIN TEST 15 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 268 Td (Listen to the spoken maritime term and select the matching item \(Test 15, audio drill 4\).) Tj ET
-BT /F1 9 Tf 42 254 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 240 Td (Mooring line) Tj ET
-BT /F1 9 Tf 42 226 Td (Options:) Tj ET
-BT /F1 9 Tf 42 212 Td (- Mooring line) Tj ET
-BT /F1 9 Tf 42 198 Td (- Bucket) Tj ET
-BT /F1 9 Tf 42 184 Td (- Spanner) Tj ET
-BT /F1 9 Tf 42 170 Td (- Cargo) Tj ET
-BT /F1 9 Tf 42 156 Td (CORRECT ANSWER: Mooring line) Tj ET
-BT /F1 9 Tf 42 142 Td (Explanation: The spoken term is Mooring line. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 128 Td (item.) Tj ET
-BT /F1 9 Tf 42 114 Td () Tj ET
-BT /F1 9 Tf 42 100 Td (QUESTION 144 | MARLIN TEST 15 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 86 Td (Listen to the spoken maritime term and select the matching item \(Test 15, audio drill 5\).) Tj ET
-BT /F1 9 Tf 42 72 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 58 Td (Ladder) Tj ET
-BT /F1 9 Tf 42 44 Td (Options:) Tj ET
-BT /F1 9 Tf 42 30 Td (- Ladder) Tj ET
-BT /F1 9 Tf 42 16 Td (- Ship) Tj ET
-BT /F1 9 Tf 42 2 Td (- Fuel tank) Tj ET
-BT /F1 9 Tf 42 -12 Td (- Whistle) Tj ET
-BT /F1 9 Tf 42 -26 Td (CORRECT ANSWER: Ladder) Tj ET
-BT /F1 9 Tf 42 -40 Td (Explanation: The spoken term is Ladder. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 -54 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 29 of 31) Tj ET
-endstream
-endobj
-61 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 60 0 R >>
-endobj
-62 0 obj
-<< /Length 3546 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 145 | MARLIN TEST 15 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 15, audio drill 1\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Compass) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Compass) Tj ET
-BT /F1 9 Tf 42 716 Td (- Boat hook) Tj ET
-BT /F1 9 Tf 42 702 Td (- Lifeboat) Tj ET
-BT /F1 9 Tf 42 688 Td (- Anchor) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Compass) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Compass. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 9 Tf 42 632 Td (QUESTION 146 | MARLIN TEST 15 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 618 Td (Listen to the spoken maritime term and select the matching item \(Test 15, audio drill 2\).) Tj ET
-BT /F1 9 Tf 42 604 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 590 Td (Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 576 Td (Options:) Tj ET
-BT /F1 9 Tf 42 562 Td (- Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 548 Td (- Grapnel) Tj ET
-BT /F1 9 Tf 42 534 Td (- Lifebuoy) Tj ET
-BT /F1 9 Tf 42 520 Td (- Safety helmet) Tj ET
-BT /F1 9 Tf 42 506 Td (CORRECT ANSWER: Fire extinguisher) Tj ET
-BT /F1 9 Tf 42 492 Td (Explanation: The spoken term is Fire extinguisher. Select the picture with the same maritime) Tj ET
-BT /F1 9 Tf 42 478 Td (item.) Tj ET
-BT /F1 9 Tf 42 464 Td () Tj ET
-BT /F1 9 Tf 42 450 Td (QUESTION 147 | MARLIN TEST 15 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 436 Td (Listen to the spoken maritime term and select the matching item \(Test 15, audio drill 3\).) Tj ET
-BT /F1 9 Tf 42 422 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 408 Td (Toolbox) Tj ET
-BT /F1 9 Tf 42 394 Td (Options:) Tj ET
-BT /F1 9 Tf 42 380 Td (- Toolbox) Tj ET
-BT /F1 9 Tf 42 366 Td (- Rope) Tj ET
-BT /F1 9 Tf 42 352 Td (- Rescue buoy) Tj ET
-BT /F1 9 Tf 42 338 Td (- Radar) Tj ET
-BT /F1 9 Tf 42 324 Td (CORRECT ANSWER: Toolbox) Tj ET
-BT /F1 9 Tf 42 310 Td (Explanation: The spoken term is Toolbox. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 296 Td () Tj ET
-BT /F1 9 Tf 42 282 Td (QUESTION 148 | MARLIN TEST 15 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 268 Td (Listen to the spoken maritime term and select the matching item \(Test 15, audio drill 9\).) Tj ET
-BT /F1 9 Tf 42 254 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 240 Td (Bucket) Tj ET
-BT /F1 9 Tf 42 226 Td (Options:) Tj ET
-BT /F1 9 Tf 42 212 Td (- Bucket) Tj ET
-BT /F1 9 Tf 42 198 Td (- Spanner) Tj ET
-BT /F1 9 Tf 42 184 Td (- Cargo) Tj ET
-BT /F1 9 Tf 42 170 Td (- Binoculars) Tj ET
-BT /F1 9 Tf 42 156 Td (CORRECT ANSWER: Bucket) Tj ET
-BT /F1 9 Tf 42 142 Td (Explanation: The spoken term is Bucket. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 128 Td () Tj ET
-BT /F1 9 Tf 42 114 Td (QUESTION 149 | MARLIN TEST 15 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 100 Td (Listen to the spoken maritime term and select the matching item \(Test 15, audio drill 7\).) Tj ET
-BT /F1 9 Tf 42 86 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 72 Td (Grapnel) Tj ET
-BT /F1 9 Tf 42 58 Td (Options:) Tj ET
-BT /F1 9 Tf 42 44 Td (- Grapnel) Tj ET
-BT /F1 9 Tf 42 30 Td (- Lifebuoy) Tj ET
-BT /F1 9 Tf 42 16 Td (- Safety helmet) Tj ET
-BT /F1 9 Tf 42 2 Td (- Torch) Tj ET
-BT /F1 9 Tf 42 -12 Td (CORRECT ANSWER: Grapnel) Tj ET
-BT /F1 9 Tf 42 -26 Td (Explanation: The spoken term is Grapnel. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 -40 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 30 of 31) Tj ET
-endstream
-endobj
-63 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 62 0 R >>
-endobj
-64 0 obj
-<< /Length 755 >>
-stream
-BT /F1 9 Tf 42 800 Td (QUESTION 150 | MARLIN TEST 15 | AUDIO PICTURE) Tj ET
-BT /F1 9 Tf 42 786 Td (Listen to the spoken maritime term and select the matching item \(Test 15, audio drill 10\).) Tj ET
-BT /F1 9 Tf 42 772 Td (Passage:) Tj ET
-BT /F1 9 Tf 42 758 Td (Ship) Tj ET
-BT /F1 9 Tf 42 744 Td (Options:) Tj ET
-BT /F1 9 Tf 42 730 Td (- Ship) Tj ET
-BT /F1 9 Tf 42 716 Td (- Fuel tank) Tj ET
-BT /F1 9 Tf 42 702 Td (- Whistle) Tj ET
-BT /F1 9 Tf 42 688 Td (- Sea chart) Tj ET
-BT /F1 9 Tf 42 674 Td (CORRECT ANSWER: Ship) Tj ET
-BT /F1 9 Tf 42 660 Td (Explanation: The spoken term is Ship. Select the picture with the same maritime item.) Tj ET
-BT /F1 9 Tf 42 646 Td () Tj ET
-BT /F1 8 Tf 42 24 Td (Ocean Star Marine Academy - Study Copy | Page 31 of 31) Tj ET
-endstream
-endobj
-65 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 64 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 16 0 R >>
 endobj
 xref
-0 66
+0 18
 0000000000 65535 f 
-0000000017 00000 n 
-0000000066 00000 n 
-0000000332 00000 n 
-0000000402 00000 n 
-0000003301 00000 n 
-0000003427 00000 n 
-0000006664 00000 n 
-0000006790 00000 n 
-0000010323 00000 n 
-0000010449 00000 n 
-0000014065 00000 n 
-0000014193 00000 n 
-0000017720 00000 n 
-0000017848 00000 n 
-0000021372 00000 n 
-0000021500 00000 n 
-0000025080 00000 n 
-0000025208 00000 n 
-0000028725 00000 n 
-0000028853 00000 n 
-0000032498 00000 n 
-0000032626 00000 n 
-0000036215 00000 n 
-0000036343 00000 n 
-0000039968 00000 n 
-0000040096 00000 n 
-0000043720 00000 n 
-0000043848 00000 n 
-0000047421 00000 n 
-0000047549 00000 n 
-0000051058 00000 n 
-0000051186 00000 n 
-0000054715 00000 n 
-0000054843 00000 n 
-0000058426 00000 n 
-0000058554 00000 n 
-0000062110 00000 n 
-0000062238 00000 n 
-0000065832 00000 n 
-0000065960 00000 n 
-0000069607 00000 n 
-0000069735 00000 n 
-0000073409 00000 n 
-0000073537 00000 n 
-0000077162 00000 n 
-0000077290 00000 n 
-0000080790 00000 n 
-0000080918 00000 n 
-0000084468 00000 n 
-0000084596 00000 n 
-0000088204 00000 n 
-0000088332 00000 n 
-0000091913 00000 n 
-0000092041 00000 n 
-0000095655 00000 n 
-0000095783 00000 n 
-0000099467 00000 n 
-0000099595 00000 n 
-0000103223 00000 n 
-0000103351 00000 n 
-0000106966 00000 n 
-0000107094 00000 n 
-0000110692 00000 n 
-0000110820 00000 n 
-0000111626 00000 n 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000155 00000 n 
+0000000225 00000 n 
+0000001508 00000 n 
+0000001634 00000 n 
+0000002940 00000 n 
+0000003066 00000 n 
+0000004457 00000 n 
+0000004583 00000 n 
+0000006013 00000 n 
+0000006141 00000 n 
+0000007586 00000 n 
+0000007714 00000 n 
+0000009259 00000 n 
+0000009387 00000 n 
+0000009475 00000 n 
 trailer
-<< /Size 66 /Root 1 0 R >>
+<< /Size 18 /Root 1 0 R >>
 startxref
-111754
+9603
 %%EOF
