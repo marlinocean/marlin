@@ -77,6 +77,11 @@ body.exam-active .exam-controls{position:sticky;bottom:0;background:#071a2c;padd
  .exam-controls{gap:8px}
  .exam-controls button{min-width:0;flex:1;padding:12px 9px;font-size:13px}
 }
+
+/* Clear question numbering and uncluttered student question layout */
+body.exam-active .question-number{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:0 0 22px;padding:0 0 14px;border-bottom:1px solid var(--line);color:var(--gold);font-size:14px;font-weight:800;letter-spacing:2px}
+body.exam-active .question-number span{color:var(--muted);font-size:13px;letter-spacing:1px;white-space:nowrap}
+body.exam-active #questionCard .question h2{margin-top:0}
 </style></head>
 <body>
 <header><div class="brand"><div class="mark">⚓</div><div><b>OCEAN STAR MARINE ACADEMY</b><small>MARLIN TEST SERIES</small></div></div><div class="row"><span class="pill" id="modePill">SECURE PORTAL</span><button class="secondary hidden" id="logoutBtn">Sign out</button></div></header>
@@ -149,7 +154,8 @@ function renderQuestion(){
  }else{
   answerHtml=(q.options||[]).map(o=>'<label class="option"><input type="radio" name="answer" value="'+String(o.label).replace(/"/g,'&quot;')+'" '+(answers[q.id]===o.label?'checked':'')+'><span>'+(o.label.startsWith('http')?'<img src="'+o.label+'" style="max-width:120px;max-height:90px">':o.label)+'</span></label>').join('');
  }
- $('questionCard').innerHTML='<div class="question"><h2>'+q.prompt+'</h2>'+passageHtml+audioButton+mediaHtml+answerHtml+'</div>';
+ const cleanPrompt=String(q.prompt||'').replace(/^Marlin Test\s*\d+\s*[·•-]\s*Exercise\s*\d+\.\s*/i,'');
+ $('questionCard').innerHTML='<div class="question"><div class="question-number"><strong>QUESTION '+(current+1)+'</strong><span>'+(current+1)+' OF '+questions.length+'</span></div><h2>'+cleanPrompt+'</h2>'+passageHtml+audioButton+mediaHtml+answerHtml+'</div>';
  $('prevQuestion').disabled=current===0;$('nextQuestion').textContent=current===questions.length-1?'Last question':'Next →';
  $('qnav').innerHTML=questions.map((q,i)=>'<button class="secondary '+(i===current?'current ':'')+(answers[q.id]?'answered':'')+'" onclick="jumpQuestion('+i+')">'+(i+1)+'</button>').join('');
 }
