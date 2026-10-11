@@ -161,7 +161,7 @@ async function loadTestModule(testId){
  return loadedTestModules[id];
 }
 $('startTest').onclick=async()=>{const startButton=$('startTest');startButton.disabled=true;try{
- const match=String(meta&&meta.title||'').match(/(\\d+)/);if(!match)throw new Error('Test number could not be identified.');
+ const match=String(meta&&meta.title||'').match(/(\d+)/);if(!match)throw new Error('Test number could not be identified.');
  const testModule=await loadTestModule(Number(match[1]));
  const d=await api('student_start',{token:inviteToken,...candidate});
  attempt=d.attempt;attemptToken=d.attemptAccessToken;questions=testModule.prepareQuestions(d.questions);
