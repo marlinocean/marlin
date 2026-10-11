@@ -31,3 +31,13 @@ npm run dev
 ```
 
 The Edge Function `marlin-api` is deployed in the linked Supabase project. Question banks must be populated before a test is published; each test requires the configured per-topic count across all 10 topics.
+
+## Marlin question bank status
+- 1,450 active question records are seeded in `public.marlin_questions`.
+- Tests 01–05: 60 questions each, 6 per topic, 60 minutes.
+- Tests 06–10: 100 questions each, 10 per topic, 90 minutes.
+- Tests 11–15: 130 questions each, 13 per topic, 125 minutes.
+- Each test has all 10 topics and the current question prompts are unique across the active bank.
+- Listening, pronunciation and audio-to-picture prompts use browser speech synthesis for now; this is not a library of recorded native-speaker audio files.
+- Picture-to-word matching currently uses emoji object illustrations and a five-item matching interaction; replace these with licensed/custom illustrations before a commercial launch.
+- Tests remain unpublished until final end-to-end quality assurance and media review are complete.
