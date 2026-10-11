@@ -66,7 +66,7 @@ document.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&['p','s'].inc
   const data=await res.json();if(!res.ok)throw new Error(data.error||'Could not load study material.');
   const questions=data.questions||[];window.studyQuestions=questions;
   document.getElementById('topicMeta').textContent=questions.length+' active questions · Answers and explanations included; audio/pictures shown where supplied';
-  root.className='';root.innerHTML=questions.length?questions.map(renderQuestion).join(''):'<p class="loading">No active questions are available for this topic.</p>';
+  root.className='';root.innerHTML=questions.length?questions.map((q,i)=>renderQuestion(q,i,questions.length)).join(''):'<p class="loading">No active questions are available for this topic.</p>';
  }catch(err){root.className='error';root.textContent=err.message}
 })();
 </script></body></html>
