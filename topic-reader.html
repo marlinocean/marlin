@@ -20,7 +20,7 @@ const plain=v=>{
  if(typeof v==='object'){for(const k of ['label','text','value','answer','name','title','word','picture'])if(v[k]!==undefined&&v[k]!==null)return plain(v[k]);return ''}
  return '';
 };
-const safeUrl=v=>{if(typeof v!=='string'||!/^https?:\\/\\//i.test(v.trim()))return '';try{return new URL(v.trim()).href}catch{return ''}};
+const safeUrl=v=>{if(typeof v!=='string')return '';try{const u=new URL(v.trim());return (u.protocol==='https:'||u.protocol==='http:')?u.href:''}catch{return ''}};
 const speak=text=>{
  const words=plain(text).trim();if(!words)return;
  if(!('speechSynthesis'in window)){alert('Audio playback is not supported in this browser.');return}
@@ -29,7 +29,7 @@ const speak=text=>{
  if(voice)u.voice=voice;speechSynthesis.speak(u);
 };
 function renderQuestion(q,i,total){
- const prompt=plain(q.prompt).replace(/^Marlin Test\\s*\\d+\\s*[·•-]\\s*Exercise\\s*\\d+\\.\\s*/i,'');
+ const prompt=plain(q.prompt).replace(/^Marlin Test\s*\d+\s*[·•-]\s*Exercise\s*\d+\.\s*/i,'');
  const passage=plain(q.passage);
  let html='<article class="question"><div class="meta">QUESTION '+(i+1)+' OF '+total+'</div><h2>'+esc(prompt||'Question')+'</h2>';
  if(passage&&passage!==prompt)html+='<div class="passage">'+esc(passage)+'</div>';
