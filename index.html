@@ -278,9 +278,9 @@ function renderQuestion(){
  const mediaHtml=q.media_url?(q.media_kind==='audio'?'<audio controls src="'+q.media_url+'"></audio>':'<img alt="Question media" src="'+q.media_url+'" style="max-width:100%;border-radius:12px">'):'';
  let answerHtml='';
  if(q.question_type==='picture_matching'){
-  answerHtml='<div class="panel picture-matching-list" style="margin-top:16px"><h3>Match all five objects</h3>'+(q.matching_items||[]).map((item,i)=>{const choices=[...new Set([item.answer,...(item.choices||[]).map(c=>typeof c==='string'?c:c.answer)])];return '<div class="picture-match-row">'+pictureEmojiHtml(item.picture,i+1)+'<div class="match-select-wrap"><select class="match-select" data-match="'+i+'"><option value="">Choose the English word</option>'+choices.map(word=>'<option value="'+String(word).replace(/"/g,'&quot;')+'" '+(saved[item.picture]===word?'selected':'')+'>'+word+'</option>').join('')+'</select></div></div>'}).join('')+'</div>';
+  answerHtml='<div class="panel picture-matching-list" style="margin-top:16px"><h3>Match each name to its position in the picture</h3>'+(q.media_url?'<img class="exam-media-image" alt="Five objects to identify" src="'+q.media_url+'">':'')+(q.matching_items||[]).map((item,i)=>'<div class="picture-match-row"><label>'+escapeHtml(item.name||item.picture)+'</label><select class="match-select" data-match="'+i+'"><option value="">Choose position</option>'+[1,2,3,4,5].map(n=>'<option value="'+n+'" '+(String(saved[item.name||item.picture]||'')===String(n)?'selected':'')+'>Position '+n+'</option>').join('')+'</select></div>').join('')+'</div>';
  }else if(q.question_type==='audio_picture'){
-  answerHtml='<div class="picture-choice-grid">'+(q.options||[]).map((o,i)=>{const emoji=String(o.label||'').trim().split(/\\s+/)[0];return '<label class="picture-choice"><input type="radio" name="answer" value="'+String(o.label).replace(/"/g,'&quot;')+'" '+(answers[q.id]===o.label?'checked':'')+'><span>'+pictureEmojiHtml(o.label,i+1)+'<small>Picture '+(i+1)+'</small></span></label>'}).join('')+'</div>';
+  answerHtml='<div class="panel"><audio controls preload="metadata" src="'+(q.media_url||'')+'" style="width:100%">Audio playback is not supported.</audio><p class="muted">Listen carefully and choose the correct picture.</p></div><div class="picture-choice-grid">'+(q.options||[]).map((o,i)=>'<label class="picture-choice"><input type="radio" name="answer" value="'+o.id+'" '+(answers[q.id]===o.id?'checked':'')+'><span><img src="'+o.url+'" alt="Option '+String.fromCharCode(65+i)+'"><small>Option '+String.fromCharCode(65+i)+'</small></span></label>').join('')+'</div>';
  }else if(q.question_type==='paragraph_title'){
   const paras=(q.passage||'').split(/\n\s*\n/);answerHtml='<div class="panel paragraph-set"><h3>Read each paragraph and choose its title</h3>'+paras.map((p,i)=>'<div class="paragraph-card"><b>Paragraph '+(i+1)+'</b><p>'+p.replace(/\n/g,'<br>')+'</p><select class="paragraph-title-select" data-paragraph="'+i+'"><option value="">Choose the best title</option>'+(q.options||[]).map(o=>'<option value="'+o.label.replace(/"/g,'&quot;')+'" '+(saved[i]===o.label?'selected':'')+'>'+o.label+'</option>').join('')+'</select></div>').join('')+'</div>';
  }else if(q.question_type==='sentence_arrangement'){
@@ -296,7 +296,7 @@ function renderQuestion(){
 async function saveCurrent(){
  const q=questions[current];if(!q)return;
  if(q.question_type==='picture_matching'){
-  const map={};document.querySelectorAll('.match-select').forEach(sel=>{const item=q.matching_items[Number(sel.dataset.match)];if(item&&sel.value)map[item.picture]=sel.value});
+  const map={};document.querySelectorAll('.match-select').forEach(sel=>{const item=q.matching_items[Number(sel.dataset.match)];if(item&&sel.value)map[item.name||item.picture]=sel.value});
   if(Object.keys(map).length)answers[q.id]=JSON.stringify(map);
  }else if(q.question_type==='paragraph_title'){
   const titles=[];document.querySelectorAll('.paragraph-title-select').forEach(sel=>titles[Number(sel.dataset.paragraph)]=sel.value);
