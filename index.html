@@ -275,7 +275,7 @@ function renderQuestion(){
  const audioTypes=['listening','pronunciation','audio_picture'];
  const audioButton=audioTypes.includes(q.question_type)&&q.passage?'<button class="secondary" onclick="playQuestionAudio()">▶ Play audio</button><p class="muted" style="font-size:12px">Listen carefully, then select your answer.</p>':'';
  const passageHtml=q.question_type==='reading'&&q.passage?'<div class="panel" style="margin:14px 0">'+q.passage+'</div>':'';
- const mediaHtml=q.media_url?(q.media_kind==='audio'?'<audio controls src="'+q.media_url+'"></audio>':'<img alt="Question media" src="'+q.media_url+'" style="max-width:100%;border-radius:12px">'):'';
+ const mediaHtml=q.media_url&&!['audio_picture','picture_matching'].includes(q.question_type)?(q.media_kind==='audio'?'<audio controls src="'+q.media_url+'"></audio>':'<img alt="Question media" src="'+q.media_url+'" style="max-width:100%;border-radius:12px">'):'';
  let answerHtml='';
  if(q.question_type==='picture_matching'){
   answerHtml='<div class="panel picture-matching-list" style="margin-top:16px"><h3>Match each name to its position in the picture</h3>'+(q.media_url?'<img class="exam-media-image" alt="Five objects to identify" src="'+q.media_url+'">':'')+(q.matching_items||[]).map((item,i)=>'<div class="picture-match-row"><label>'+escapeHtml(item.name||item.picture)+'</label><select class="match-select" data-match="'+i+'"><option value="">Choose position</option>'+[1,2,3,4,5].map(n=>'<option value="'+n+'" '+(String(saved[item.name||item.picture]||'')===String(n)?'selected':'')+'>Position '+n+'</option>').join('')+'</select></div>').join('')+'</div>';
